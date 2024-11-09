@@ -1,0 +1,24 @@
+project:
+  type: book
+
+book:
+  title: "fgmanual"
+  author: "Ovande Furtado JR"
+  date: "10/28/2024"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+csl: apa.csl
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
