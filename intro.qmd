@@ -1,16 +1,42 @@
-# Introduction
+-   I Introduction
+    -   Purpose of the manual
+    -   Overview of the FG-COMPASS
+        -   Scales
+        -   Importance of assessing FMS
+        -   Competency in FMS is linked to:NO NEED
+            -   Decreased levels of obesity \[6\]
+            -   Increased levels of physical activity and sports participation \[6\]
+            -   Prevention of weight gain \[2\]
+            -   Early identification of delays in FMS development allows for timely intervention and support. \[2, 7\]
+        -   Uses of the FG-COMPASS
 
-## Purpose
+# Purpose
 
 This manual provides users with the necessary knowledge and skills to effectively administer, score, and interpret the Furtado-Gallagher Children Observational Movement Pattern Assessment System (FG-COMPASS), ensuring its practical application and reliability in various settings.
 
-## Overview of the FG-COMPASS
+# Overview of the FG-COMPASS
 
 The FG-COMPASS is an observational assessment tool developed to evaluate fundamental movement skill (FMS) development in children 5 to 10 years old [@furtado2018]. It was developed by combining aspects of the composite 3-stage approach (ref) and the observational plan approach (ref) to provide a practical and efficient way for practitioners to assess FMS in various settings [@furtado2012].
 
 The FG-COMPASS assesses ten FMS, divided into two subtests: a locomotor subtest with five skills (skipping, hopping, horizontal jumping, vertical jumping, and galloping) and an object manipulation subtest with five skills (batting, stationary dribbling, kicking, throwing, and catching). Unlike other FMS assessment tools that use multiple performance criteria for each skill, the instrument relies on only a three key performance criteria selected from validated and hypothesized developmental sequences [@furtado2018]. This allows for quicker and more practical administration compared to more complex assessment instruments [@perez2024].
 
 The instrument uses a process-oriented, criterion-referenced design, focusing on the quality of movement rather than quantitative measures[@perez2024]. It employs a composite decision tree approach (see Appendix A), where users make sequential decisions based on the presence or absence of specific performance criteria to classify children into levels 1 through 4. This approach aims to simplify the assessment process while providing valuable information about a child's FMS development, which can be used to evaluate the effectiveness of instructional programs and monitor/detect deficits in FMS development [@perez2024].
+
+## Rating Scales
+
+The FG-COMPASS was developed using a Composite Decision-Tree approach (see @fig-cdt), which combines elements of the Observational Plan (OP)[@haywood2009] and the Three-Stage (TS) [@mcclenaghan1978]models for FMS assessment [@furtado2009]. The OP model is a structured method for analyzing motor development, particularly in movement skills, by systematically observing and recording movement patterns. This approach emphasizes the importance of a detailed and methodical process to ensure accuracy and reliability in observations. The TS model is a framework for understanding motor skill development, emphasizing the progression from initial attempts at a skill to mature execution. It limits the classification of skills to three stages (initial, elementary, and mature) and selects only key performance criteria for the assessment tasks @furtado2009
+
+The composite decision trees (CDTs) for each assessment task in the FG-COMPASS is presented in a decision-tree format to facilitate assessment.
+
+Each CDT has three stage levels: a discriminatory-decision level (DDL), a confirmatory-decision level (CDL), and an outcome-decision level (ODL).
+
+The DDL has a single decision node which comprises of one key performance criterion that is intended to discriminate between levels 1 and 4. The CDL is comprised of two performance criteria, each with the intention to confirm whether a performer is level 1 (if NO was selected in the DDL) or level 4 (if YES was selected in DDL). In the case of failing to confirm levels 1 and 4, they default to levels 2 and 3, respectively.
+
+![Framework model for the decision trees](static/images/fgcompass-dt-model-stages.png){#fig-cdt fig-align="right"}
+
+The discriminatory-decision level holds a single decision-node that contains a performance criterion that strongly discriminates between the initial and mature levels of skill development. **(Furtado, 2009, p. 29)** The confirmatory-decision level holds two decision-nodes that confirm the child's skill level. The upper confirmatory-decision node confirms the mature level, while the lower confirmatory-decision node confirms the initial level. **(Furtado, 2009, p. 29)** The outcome-decision level provides the final classification of the child's skill level. **(Furtado, 2009, p. 29)**
+
+By using this composite decision-tree approach, the FG-COMPASS aims to provide a practical assessment tool that can be easily used by teachers in school settings, as it limits the number of performance criteria and classification stages compared to other FMS assessment tools. **(Furtado, 2009, pp. 27–28)**
 
 ## The Importance of Fundamental Movement Skill Development
 
@@ -57,9 +83,3 @@ Evaluating the effectiveness of instructional programs aimed at improving childr
 ### Monitoring and Detecting Deficits
 
 Monitoring the longitudinal development of students' fundamental movement skills (FMS) is essential in educational settings, enabling professionals to systematically track progress and make evidence-based decisions regarding instructional strategies. Regular assessment of FMS allows practitioners to identify specific areas where children may require additional support or demonstrate mastery in FMS, facilitating the customization of teaching methods to address each student's distinct developmental needs. Additionally, detecting deficits in FMS development allows professionals to provide targeted interventions, helping students catch up and overcome challenges. Early identification enables teachers to modify their instruction, making it more inclusive and accessible, thereby contributing to a more positive and supportive learning environment where every child feels valued and encouraged to succeed.
-
-## extra
-
-**It is important to note that gross motor skills do not develop automatically, and they need to be nurtured, promoted, and practiced.** Children need opportunities to play and explore their environment to develop these skills. Parents, educators, and caregivers can encourage gross motor development by providing safe and stimulating environments.
-
-**Targeting fundamental motor skills in childhood interventions, particularly those aimed at promoting long-term physical activity, is a key strategy for better health and well-being.**
