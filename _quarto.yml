@@ -9,7 +9,7 @@ book:
     background: light
     right: 
       - icon: person
-        href: https://drfurtado.github.io/site
+        href: https://drfurtado.github.io/compass-manual/
   title: "FG-COMPASS Manual"
   author: 
     - "Ovande Furtado, Jr., Ph.D."
