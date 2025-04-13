@@ -1,0 +1,13 @@
+---
+title: "Testing Protocols"
+---
+
+Below, you will find the Testing Protocol for the FG-COMPASS. This document outlines the procedures and guidelines necessary for the effective administration of the test. Please ensure that all test administrators are familiar with these protocols to maintain consistency and reliability in the assessment process.
+
+**English Version**
+
+{{< pdf appendix-a.pdf >}}
+
+**Portuguese Version**
+
+Coming soon!

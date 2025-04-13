@@ -1,24 +1,44 @@
 project:
   type: book
+  output-dir: docs
 
 book:
-  title: "fgmanual"
-  author: "Ovande Furtado JR"
-  date: "10/28/2024"
+  cover-image: cover.png
+  page-footer: 
+    left: "Copyright 2025 @ FG-COMPASS"
+    background: light
+    right: 
+      - icon: person
+        href: https://drfurtado.github.io/site
+  title: "FG-COMPASS Manual"
+  author: 
+    - "Ovande Furtado, Jr., Ph.D."
+    - "Jere D. Gallagher, Ph.D."
+  date: "04/01/2025"
+  downloads: [pdf] 
+
   chapters:
     - index.qmd
-    - intro.qmd
-    - summary.qmd
+    - i-intro.qmd
+    - ii-admin.qmd 
     - references.qmd
+  appendices:
+    - appendix-a.qmd
 
 bibliography: references.bib
 csl: apa.csl
 
 format:
-  html:
-    theme: cosmo
-  pdf:
-    documentclass: scrreprt
+    html:
+      theme: cosmo
+    pdf:
+      documentclass: scrreprt
+      number-depth: 2
+      header-includes:
+        - "\\usepackage{multirow}"
+        - "\\usepackage{pdfpages}"
+      titlepage: true
+      titlepage-image: cover.png
 
-editor: visual
+editor: source
 

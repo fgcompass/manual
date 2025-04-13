@@ -1,162 +1,29 @@
 # Preface {.unnumbered}
 
-It is worth noting that while users may videotape performances for later assessment, the FG-COMPASS is primarily designed for live, in situ assessment. This unique feature allows practitioners to observe and assess children's FMS proficiency in real-time without needing performance recordings, enhancing the assessment's convenience.
+Fundamental Movement Skills (FMS) lie at the heart of children’s overall development, serving as the building blocks for a lifetime of active and healthy living. The Furtado-Gallagher Children Observational Movement Pattern Assessment System (FG-COMPASS) was created to provide a user-friendly, evidence-based method for assessing these skills in children aged 5 to 10 years. Building upon well-established theories and previous research in motor development, this manual offers educators, researchers, coaches, and healthcare professionals a clear framework for understanding, administering, and interpreting the FG-COMPASS.
 
-**Contents**
+## A Journey of Research and Practice
+Over the past decade, considerable effort has been devoted to refining the FG-COMPASS to ensure that it is practical, psychometrically sound, and accessible to both novice and expert raters. Early work focused on establishing expert-rater agreement and verifying the instrument’s inter- and intra-rater reliability, ensuring that FG-COMPASS scores accurately represent a child’s skill proficiency. Subsequent investigations addressed the addition of new locomotor tasks—such as the vertical jump and gallop—and confirmed that these expanded scales maintained the high reliability and consistency standards set by the original assessment. Through these enhancements, the FG-COMPASS offers a comprehensive view of key FMS that are commonly taught and developed across preschool and elementary-age programs.
 
--   I Introduction
-    -   Purpose of the manual
-    -   Overview of the FG-COMPASS
-        -   Scales
-        -   Importance of assessing FMS
-        -   Competency in FMS is linked to:
-            -   Decreased levels of obesity \[6\]
-            -   Increased levels of physical activity and sports participation \[6\]
-            -   Prevention of weight gain \[2\]
-            -   Early identification of delays in FMS development allows for timely intervention and support. \[2, 7\]
-        -   Uses of the FG-COMPASS
--   II Test Administration Procedures
-    -   General instructions
-    -   Preparing for assessment
-    -   Administering the assessment
--   III Scoring and interpretation
-    -   Rating scales
-    -   Interpreting proficiency levels
-    -   Generating reports
--   IV User training
-    -   Importance of training
-    -   Training procedures
--   V Validity and reliability
-    -   Content validity
-    -   Concurrent validity
-    -   Inter-rater reliability
-    -   Intra-rater reliability
-    -   Expert-rater agreement
--   References
--   Appendices
-    -   Decision trees
-    -   Testing protocols
+## Bridging Theory and Practice
+While multiple FMS assessments exist, many either demand extensive training and video review or else focus narrowly on specific tasks. By drawing on both the composite decision-tree approach and well-established developmental sequences, the FG-COMPASS strikes a balance: It narrows down each skill to a few critical performance criteria yet gives raters the information needed to classify children’s proficiency levels accurately and consistently. This streamlined design makes it more feasible for use in real-world settings, such as physical education classes, sports clinics, and recreational programs—environments in `which time and resources are often limited.
 
-### II. Theoretical Background
+## Supporting All Learners
+One of the central aims of this tool is to facilitate early detection of children who may require additional support in mastering fundamental movement skills. Research consistently links the quality of FMS to positive outcomes in physical health, cognitive development, and social-emotional well-being. By equipping practitioners with the means to detect deficits early on—and to monitor progress over time—the FG-COMPASS fosters an inclusive environment where instruction can be tailored to each child’s unique developmental trajectory.
 
--   **Fundamental Movement Skills:** Definition and characteristics of FMS \[8-10\]
+## How to Use This Manual
+This manual is designed with clarity and practicality in mind. In the opening chapters, readers will find an overview of core concepts in FMS development, along with the theoretical underpinnings of the FG-COMPASS. Subsequent sections provide step-by-step administration procedures, including detailed rating scales, setup instructions, and scoring guidelines for each of the ten FMS evaluated. The appendices contain testing protocols and sample group record forms to ensure smooth execution, whether assessments are conducted live or via video review.
 
--   Importance of FMS in child development \[11-13\]
+## Acknowledgments
+The creation and refinement of the FG-COMPASS would not have been possible without the dedication of numerous colleagues, research assistants, and educators who contributed their time and expertise. Their insightful feedback has helped shape an assessment tool that balances scientific rigor with everyday utility. Special thanks go to the children, parents, teachers, and administrators who allowed us to pilot-test the FG-COMPASS in diverse settings, providing invaluable data that guided ongoing improvements.
 
--   Relationship between FMS and:
+In addition to the many individuals who contributed to the development of the FG-COMPASS, I wish to express my deepest admiration and gratitude to my mentor and graduate advisor, Dr. Jere D. Gallagher. Dr. Gallagher was a distinguished professor and associate dean at the University of Pittsburgh’s School of Education, renowned for her expertise in child development and motor learning. She dedicated over 25 years to directing the Kinder Kinetics Program, now known as “Pitt’s Kids: Honoring the Vision of Dr. Jere Gallagher,” nationally recognized for its innovative approach to promoting healthy movement among children aged 3 to 12. ￼ ￼
 
--   Physical activity \[2, 11, 14, 15\]
+Dr. Gallagher’s commitment to student advocacy and inclusive education left an indelible mark on all who had the privilege of working with her. Her mentorship was characterized by unwavering support, insightful guidance, and a genuine passion for fostering growth in others. She was instrumental in shaping my academic journey, encouraging a balance of scientific rigor and compassionate practice that continues to influence my work today.
 
--   Health outcomes \[2, 11, 14\]
+Her legacy endures through the many students she mentored, the programs she established, and the lives she touched. It is with profound respect and heartfelt appreciation that I dedicate this work to her memory. ￼
 
--   Sport skill development \[2, 6\]
+In presenting this manual, my hope is that it will serve as both a resource and a catalyst—helping practitioners not only assess motor skills more accurately but also better understand how to nurture each child’s potential. By investing in high-quality FMS assessment, we invest in the holistic growth of children, setting them on a path toward vibrant, active lives.
 
--   **Developmental Stages of FMS:**The three-stage approach (initial, elementary, advanced) used in the FG-COMPASS \[4, 16, 17\]
-
--   Hypothesized and validated developmental sequences for each FMS \[4, 16, 18\]
-
--   Composite method for assessing FMS development:
-
--   Focus on holistic developmental change \[4\]
-
--   Understanding of cohesive characteristics within stages \[4\]
-
-### IV. Scoring and Interpretation
-
--   **Decision Trees (Rating Scales):**Structure and components of decision trees: \[22, 23\]
-
--   Discriminatory decision node: Differentiates between extreme levels (initial or advanced). \[22\]
-
--   Confirmatory decision nodes: Verify the performer's proficiency level within the chosen path. \[22, 23\]
-
--   Outcome nodes: Represent the final proficiency levels (1-4). \[23\]
-
--   Using decision trees to determine proficiency level for each skill: \[19, 21, 23\]
-
--   Answering "yes" or "no" to decision nodes based on observed performance
-
--   Following the path dictated by the answers
-
--   Reaching the end node representing the assigned proficiency level
-
--   **Interpreting Proficiency Levels:**Explanation of the four proficiency levels (1-4) and their corresponding characteristics. \[23\]
-
--   Level 1: Initial \[23\]
-
--   Level 2: \[Source: Not explicitly defined in the provided sources. May need to be inferred from Level 1 and Level 3 descriptions.\]
-
--   Level 3: \[Source: Not explicitly defined in the provided sources. May need to be inferred from Level 1 and Level 4 descriptions.\]
-
--   Level 4: Advanced \[23\]
-
--   Relating proficiency levels to developmental milestones \[Source: This information might be included in the full manual but is not explicitly discussed in the provided sources.\]
-
--   **Generating Reports:**Using the FG-COMPASS software (or mobile application) to compile and analyze data \[24\]
-
--   Creating individual and group reports to track progress and identify areas for intervention \[24\]
-
-### V. Rater Training and Certification
-
--   **Importance of Rater Training:**Ensuring accurate and reliable assessment results \[25, 26\]
-
--   Minimizing inter-rater variability and bias \[25, 26\]
-
--   **Training Procedures:**Overview of the training program:
-
--   Familiarization with the FG-COMPASS and its theoretical foundations \[20, 25\]
-
--   Detailed explanation of the decision trees and scoring criteria \[20, 25\]
-
--   Practice rating videotaped and/or live performances \[20, 21, 25\]
-
--   Feedback and discussion to address discrepancies and ensure understanding \[20, 25\]
-
--   **Certification Process:**Web-based certification tool under development \[26\]
-
--   Requirements for certification (e.g., achieving a minimum level of agreement with expert ratings) \[Source: Specific certification requirements may be detailed in the full manual or on the certification platform.\]
-
-### VI. Psychometric Properties
-
--   **Reliability:Inter-rater reliability:** The degree of agreement between different raters assessing the same performance. \[27\]
-
--   High inter-rater reliability has been demonstrated in previous studies, particularly for manipulative skills. \[6, 28, 29\]
-
--   **Intra-rater reliability:** The consistency of a single rater's scores over time. \[27\]
-
--   Good intra-rater reliability has been demonstrated for both locomotor and manipulative skills. \[6, 28, 29\]
-
--   **Validity:Concurrent validity:** The extent to which the FG-COMPASS scores correlate with scores from an established assessment tool (TGMD-2). \[6\]
-
--   Good to excellent concurrent validity has been demonstrated for the FG-COMPASS, particularly for manipulative skills and the total test score. \[6, 29\]
-
--   **Expert-rater agreement:** High levels of agreement between expert raters and trained non-expert raters have been established, supporting the accuracy of the rating scales. \[30-33\]
-
-### VII. Future Directions and Limitations
-
--   **Future Research:**Adding two more skills to the locomotor subtest to enhance its comprehensiveness \[5, 28\]
-
--   Continued investigation of variations in rater interpretations, particularly for locomotor skills \[6, 28\]
-
--   Evaluating the feasibility and effectiveness of the web-based training tool and the mobile version of the instrument in real-world settings \[26, 28\]
-
--   Investigating the impact of “bad trials” during live assessments and developing strategies for managing them \[28\]
-
--   **Limitations:**The locomotor subtest requires further development with the addition of two more skills. \[5, 28\]
-
--   Potential variations in rater interpretations, especially for locomotor skills, need to be addressed through training and scoring criteria refinement. \[6, 28\]
-
--   The effectiveness of the web-based training and mobile version needs to be empirically evaluated. \[26, 28\]
-
-### VIII. References
-
--   Include a complete list of cited references. \[2, 3, 6, 34\]
-
-### IX. Appendices
-
--   **Decision Trees:** Include visual representations of the decision trees (rating scales) for each skill. \[18, 23, 35\]
-
--   **Testing Protocols:** Provide detailed instructions for administering each skill assessment, including setup, equipment, and scoring procedures. \[3\]
-
--   **Sample Reports:** Include examples of individual and group reports generated by the FG-COMPASS software (or mobile application). \[Source: This would be included in the full user manual but is not mentioned in the provided sources.\]
-
-This outline can serve as a starting point for developing a comprehensive user manual for the FG-COMPASS. Further details and information can be added as the tool continues to be refined and validated.
+Ovande Furtado, Jr., Ph.D.
+April 2025
