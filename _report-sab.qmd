@@ -1,0 +1,129 @@
+---
+title: "Sabbatical Report"
+author: Ovander Furtado, Ph.D.
+date: 2025-04-12
+output: 
+    pdf_document:
+        section_numbering: true
+---
+
+
+# Introduction and Purpose of Sabbatical
+
+I am pleased to present this report documenting my sabbatical activities and accomplishments. My sabbatical primarily focused on conducting fieldwork in Brazil to collect concurrent validity data for the Portuguese version of the Furtado-Gallagher Children Observational Movement Pattern Assessment System (FG-COMPASS). Developed to assess fundamental movement skills (FMS) in children aged 5 to 10, the FG-COMPASS is a research-based instrument with demonstrated reliability and validity in English-speaking contexts.  
+
+Due to unforeseen logistical challenges—including difficulties securing a viable research site and a host of travel and scheduling obstacles—my plan to conduct data collection in Brazil proved unfeasible within the available timeframe. To ensure meaningful progress on the FG-COMPASS project and meet my sabbatical objectives by Fall 2024, I proposed and implemented a necessary change in scope: developing a comprehensive **User Manual for the FG-COMPASS** in English.  
+
+This decision was made to:
+
+- Advance the FG-COMPASS tool through the creation of a user-friendly resource.  
+- Allow broader adoption of FG-COMPASS in educational and clinical settings.  
+- Maintain the sabbatical’s academic and practical value under the evolving circumstances.
+
+# Revised Project Objectives
+
+With my sabbatical efforts redirected toward developing the FG-COMPASS **User Manual**, the revised objectives were as follows:
+
+1. **Create a Detailed User Manual**  
+   - Draft a user-friendly manual containing step-by-step instructions for administering, scoring, interpreting, and troubleshooting the FG-COMPASS.
+
+2. **Incorporate Best Practices and Evidence-Based Guidelines**  
+   - Align the manual with contemporary motor skill development research, ensuring high-quality and up-to-date assessment protocols.
+
+3. **Facilitate Training and Implementation**  
+   - Provide sufficient clarity and depth so that educators, clinicians, and researchers can adopt the FG-COMPASS with minimal specialized training.
+
+4. **Obtain Expert Feedback**  
+   - Solicit review from three recognized experts in motor behavior to refine the manual’s accuracy, comprehensiveness, and usability.
+
+5. **Prepare the Manual for Wide Accessibility**  
+   - Make the final version freely available online, ensuring that practitioners worldwide can download the resource.
+
+# Overview of Sabbatical Activities
+
+Below is a summary of the main tasks and milestones completed during the sabbatical period:
+
+## Literature Review and Preliminary Drafting
+
+- **Literature Review**: I began by consolidating existing FG-COMPASS documentation, including research articles (e.g., the validation studies by Furtado & Gallagher) and past user guides. I analyzed best practices for FMS assessments and reviewed relevant manuals in similar fields to determine the ideal structure and level of detail.  
+- **Project Outline**: I created a detailed outline specifying the sections of the manual: background, theoretical foundations of FG-COMPASS, and administration procedures, scoring guidelines.
+
+## Manual Development
+
+- **Content Creation**: I wrote clear instructions on how to administer each of the FG-COMPASS locomotor and manipulative subtests. Each skill—such as overhand throw, kick, dribble, catch, strike, hop, skip, gallop, horizontal jump, and vertical jump—received a dedicated section describing:
+  1. Equipment and Setup  
+  2. Directions for Performers  
+  3. Key Performance Criteria  
+  4. Developmental Sequences for Rating  
+  5. Troubleshooting or Common Errors  
+- **Visual Aids and Formatting**: I included illustrations and simplified decision-tree diagrams to improve clarity. Whenever possible, performance criteria were depicted in a stepwise manner for quick reference.
+
+## Expert Consultation
+
+- **Expert Selection**: I identified three scholars experienced in motor behavior and fundamental movement skill assessment. Each was provided with a draft of the manual.  
+- **Feedback Compilation**: Each expert offered detailed comments on clarity, comprehensiveness, and applicability of the FG-COMPASS Manual. Notable suggestions addressed:  
+  - Terminology consistency across subtests  
+  - Additional notes for live versus video-based assessments  
+  - Emphasis on scoring criteria for borderline performances  
+- **Manual Revision**: Incorporating their feedback, I refined instructions, enhanced specific skill illustrations, and strengthened the troubleshooting section to make the manual more robust across diverse real-world settings.
+
+## Distribution Plan
+
+- **Website Creation and PDF Download**: To ensure global accessibility, I created a dedicated website for the FG-COMPASS Manual:  
+  **[https://drfurtado.github.io/compass-manual/](https://drfurtado.github.io/compass-manual/)**  
+  From this site, users can view online content or download a PDF copy at no cost.  
+- **Future Publishing Options**: While the manual is currently hosted on its website, I am also exploring additional publication channels (e.g., Amazon Kindle Direct Publishing) to further broaden its reach and availability.
+
+# Significance and Expected Impact
+
+## Enhanced Adoption of FG-COMPASS
+
+A fully developed and thoroughly reviewed User Manual will streamline the administration of the FG-COMPASS, facilitating consistent and accurate assessments of children’s fundamental movement skills across diverse settings.  
+
+## Contribution to Educational and Clinical Practice
+
+The manual’s step-by-step structure will help physical educators, occupational therapists, pediatric exercise specialists, and researchers more easily integrate FG-COMPASS into their work. This supports early detection of FMS deficits and the evaluation of intervention outcomes, thus promoting better health and developmental trajectories.  
+
+## Advancement of Research
+
+With clear guidelines for consistent scoring and interpretation, new researchers and graduate students can adopt FG-COMPASS to conduct further reliability, validity, and longitudinal studies. The manual’s standardized approach lays a foundation for comparing FMS data across populations and programs.
+
+# Challenges and Lessons Learned
+
+1. **Logistical Obstacles for Data Collection Abroad**  
+   - Limited facility availability, scheduling conflicts, and the difficulty of arranging short-term research sites underscore the importance of early, robust logistical planning.  
+2. **Adapting Project Scope**  
+   - Shifting from field data collection to manual development required reevaluation of my research timeline and deliverables. Although unexpected, this pivot yielded a vital resource for FG-COMPASS users.  
+3. **Importance of Expert Peer Review**  
+   - Multiple rounds of expert critique were invaluable in clarifying ambiguity and fine-tuning details. This rigorous review process greatly improved the manual’s clarity, consistency, and user-friendliness.
+
+# Timeline Summary
+
+| **Month** | **Activities**                                                       |
+|-----------|---------------------------------------------------------------------|
+| 1         | Comprehensive review of FG-COMPASS research and planning the manual |
+| 2         | Drafting core sections; consulting references; developing diagrams  |
+| 3         | Expert feedback process; revisions based on expert input            |
+| 4         | Final copyedit, website creation, and PDF release                   |
+
+*(Note: The above reflects consolidated milestones. Some tasks, such as expert consultations and iterative revisions, continued throughout the sabbatical.)*
+
+
+# Future Directions
+
+- **Portuguese Version**: After completing the English User Manual, I remain interested in adapting the manual for a Portuguese-speaking audience, informed by the newly streamlined content.  
+- **Additional Validity Studies**: When circumstances allow, I plan to resume collecting concurrent validity data specifically for the Portuguese version. The updated English manual will serve as a template, reducing methodological uncertainties if and when a Brazilian study site is secured.  
+- **Workshops and Training**: I intend to organize professional development workshops based on the manual’s content, both on campus and at external conferences, to enhance the FG-COMPASS user community.
+
+# Conclusion
+
+Despite the unexpected logistical and time constraints preventing the original Brazilian fieldwork for concurrent validity data, my sabbatical has yielded a comprehensive **User Manual for the FG-COMPASS**. This resource will play a pivotal role in standardizing FMS assessments across educational and clinical contexts, ultimately benefiting children through improved identification of motor skill development needs.  
+
+This pivot has strengthened the FG-COMPASS project. Creating a well-structured, evidence-based Manual has significant immediate and long-term value for instructors, clinicians, and researchers. I appreciate the ongoing support and flexibility granted by CSUN, which enabled me to adapt my sabbatical focus and produce a deliverable that enhances both scholarly and practical applications of motor skill assessment.
+
+Should you have any questions or require further details, please feel free to contact me. Thank you for your understanding and continued support.
+
+Ovande Furtado, Jr., Ph.D.
+Associate Professor  
+Department of Kinesiology  
+California State University, Northridge
