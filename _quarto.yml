@@ -12,8 +12,23 @@ book:
         href: https://drfurtado.github.io/compass-manual/
   title: "FG-COMPASS Manual"
   author: 
-    - "Ovande Furtado, Jr., Ph.D."
-    - "Jere D. Gallagher, Ph.D."
+    - name: Furtado, Ovande Jr
+      orcid: 0000-0003-3847-6314 
+      email: ovandef@csun.edu
+      affiliations:
+      - name: California State University, Northridge
+        department: Department of Kinesiology
+        address: 18111 Nordhoff St
+        city: Northridge
+        region: CA
+        postal-code: 91330-8287
+    - name: Jere Gallagher
+      affiliations:
+      - name: University of Pittsburgh
+        department: Department of Health and Physical Activity
+        city: Pittsburgh
+        region: PA
+        postal-code: 15260
   date: "04/01/2025"
   downloads: [pdf] 
 
