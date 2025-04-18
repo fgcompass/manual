@@ -58,10 +58,12 @@ div.csl-indent {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-6bb072e51ab976e338d8fd19b221fbe5.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-772f16f1092111b8ed76131bef37b30d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-6bb072e51ab976e338d8fd19b221fbe5.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-a324fd9b8cea2c7fb1e02e2cce9df3ca.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-6cb9755ab580196d99dbacb2dcaa9362.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-a324fd9b8cea2c7fb1e02e2cce9df3ca.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -118,8 +120,10 @@ div.csl-indent {
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">FG-COMPASS Manual</a> 
-        <div class="sidebar-tools-main">
+        <div class="sidebar-tools-main tools-wide">
     <a href="./FG-COMPASS-Manual.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
+    <a href="https://www.linkedin.com/sharing/share-offsite/?url=|url|" title="LinkedIn" class="quarto-navigation-tool px-1" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
     </div>
       </div>
@@ -207,6 +211,136 @@ div.csl-indent {
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
+<script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    toggleBodyColorPrimary();
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        disableStylesheet(primaryStylesheets)
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const darkModeDefault = false;
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -234,13 +368,13 @@ div.csl-indent {
 </section>
 <section id="overview-of-the-fg-compass" class="level1" data-number="3">
 <h1 data-number="3"><span class="header-section-number">3</span> Overview of the FG-COMPASS</h1>
-<p>The FG-COMPASS is an observational assessment tool developed to evaluate fundamental movement skill (FMS) development in children 5 to 10 years old <span class="citation" data-cites="furtado2018">(<a href="#ref-furtado2018" role="doc-biblioref">Furtado &amp; Gallagher, 2018</a>)</span>. It was developed by combining aspects of the composite 3-stage approach <span class="citation" data-cites="gallahue2002">(<a href="#ref-gallahue2002" role="doc-biblioref">Gallahue &amp; Ozmun, 2002</a>)</span> and the observational plan approach <span class="citation" data-cites="haywood2019">(<a href="#ref-haywood2019" role="doc-biblioref">Haywood &amp; Getchell, 2019</a>)</span> to provide a practical and efficient way for practitioners to assess FMS in various settings <span class="citation" data-cites="furtado2012">(<a href="#ref-furtado2012" role="doc-biblioref">Furtado &amp; Gallagher, 2012</a>)</span>.</p>
-<p>The FG-COMPASS assesses ten FMS, divided into two subtests: a locomotor subtest with five skills (skipping, hopping, horizontal jumping, vertical jumping, and galloping) and an object manipulation subtest with five skills (batting, stationary dribbling, kicking, throwing, and catching). Unlike other FMS assessment tools that use multiple performance criteria for each skill, the instrument relies on only three key performance criteria selected from validated and hypothesized developmental sequences <span class="citation" data-cites="furtado2018">(<a href="#ref-furtado2018" role="doc-biblioref">Furtado &amp; Gallagher, 2018</a>)</span>. This allows for quicker and more practical testing administration compared to more complex assessment instruments<span class="citation" data-cites="perez2024">(<a href="#ref-perez2024" role="doc-biblioref">Perez, 2024</a>)</span>.</p>
-<p>The instrument uses a process-oriented, criterion-referenced design, focusing on the quality of movement rather than quantitative measures<span class="citation" data-cites="perez2024">(<a href="#ref-perez2024" role="doc-biblioref">Perez, 2024</a>)</span>. It employs a composite decision tree approach (see Appendix A), where users make sequential decisions based on the presence or absence of specific performance criteria to classify children into levels 1 through 4. This approach aims to simplify the assessment process while providing valuable information about a child’s FMS development, which can be used to evaluate the effectiveness of instructional programs and monitor/detect deficits in FMS development<span class="citation" data-cites="perez2024">(<a href="#ref-perez2024" role="doc-biblioref">Perez, 2024</a>)</span>.</p>
+<p>The FG-COMPASS is an observational assessment tool developed to evaluate fundamental movement skill (FMS) development in children 5 to 10 years old <span class="citation" data-cites="furtado2018">(<a href="references.html#ref-furtado2018" role="doc-biblioref">Furtado &amp; Gallagher, 2018</a>)</span>. It was developed by combining aspects of the composite 3-stage approach <span class="citation" data-cites="gallahue2002">(<a href="references.html#ref-gallahue2002" role="doc-biblioref">Gallahue &amp; Ozmun, 2002</a>)</span> and the observational plan approach <span class="citation" data-cites="haywood2019">(<a href="references.html#ref-haywood2019" role="doc-biblioref">Haywood &amp; Getchell, 2019</a>)</span> to provide a practical and efficient way for practitioners to assess FMS in various settings <span class="citation" data-cites="furtado2012">(<a href="references.html#ref-furtado2012" role="doc-biblioref">Furtado &amp; Gallagher, 2012</a>)</span>.</p>
+<p>The FG-COMPASS assesses ten FMS, divided into two subtests: a locomotor subtest with five skills (skipping, hopping, horizontal jumping, vertical jumping, and galloping) and an object manipulation subtest with five skills (batting, stationary dribbling, kicking, throwing, and catching). Unlike other FMS assessment tools that use multiple performance criteria for each skill, the instrument relies on only three key performance criteria selected from validated and hypothesized developmental sequences <span class="citation" data-cites="furtado2018">(<a href="references.html#ref-furtado2018" role="doc-biblioref">Furtado &amp; Gallagher, 2018</a>)</span>. This allows for quicker and more practical testing administration compared to more complex assessment instruments<span class="citation" data-cites="perez2024">(<a href="references.html#ref-perez2024" role="doc-biblioref">Perez, 2024</a>)</span>.</p>
+<p>The instrument uses a process-oriented, criterion-referenced design, focusing on the quality of movement rather than quantitative measures<span class="citation" data-cites="perez2024">(<a href="references.html#ref-perez2024" role="doc-biblioref">Perez, 2024</a>)</span>. It employs a composite decision tree approach (see Appendix A), where users make sequential decisions based on the presence or absence of specific performance criteria to classify children into levels 1 through 4. This approach aims to simplify the assessment process while providing valuable information about a child’s FMS development, which can be used to evaluate the effectiveness of instructional programs and monitor/detect deficits in FMS development<span class="citation" data-cites="perez2024">(<a href="references.html#ref-perez2024" role="doc-biblioref">Perez, 2024</a>)</span>.</p>
 <section id="rating-scales" class="level2" data-number="3.1">
 <h2 data-number="3.1" class="anchored" data-anchor-id="rating-scales"><span class="header-section-number">3.1</span> Rating Scales</h2>
-<p>The FG-COMPASS was developed using a Composite Decision Tree approach (see <a href="#fig-cdt" class="quarto-xref">Figure&nbsp;<span class="quarto-unresolved-ref">fig-cdt</span></a>), which combines elements of the Observational Plan (OP)<span class="citation" data-cites="haywood2019">(<a href="#ref-haywood2019" role="doc-biblioref">Haywood &amp; Getchell, 2019</a>)</span> and the Three-Stage (TS) <span class="citation" data-cites="mcclenaghan1978">(<a href="#ref-mcclenaghan1978" role="doc-biblioref">McClenaghan &amp; Gallahue, 1978</a>)</span>models for FMS assessment <span class="citation" data-cites="furtado2009">(<a href="#ref-furtado2009" role="doc-biblioref">Furtado, 2009</a>)</span>. The word composite refers to the practice of assessing FMS as a whole, rather than by body parts (i.e., arms, legs, torso, etc.). Even though individual body parts are considered with the composite method, the final score denotes proficiency levels for the entire body.</p>
-<p>The OP model is a method for assessing motor skill development, particularly in FMS, by systematically observing and recording movement patterns. It emphasizes the importance of a detailed and methodical process to ensure accuracy and reliability of observations. The TS model is a framework for understanding motor skill development, emphasizing the progression from initial attempts at a skill to mature execution. It limits the classification of skills to three stages (initial, elementary, and mature) and selects only key performance criteria for the assessment tasks <span class="citation" data-cites="furtado2012">(<a href="#ref-furtado2012" role="doc-biblioref">Furtado &amp; Gallagher, 2012</a>)</span>. An example of a performance criteria assessed in the FG-COMPASS is the “follow through” when kicking a stationary ball.</p>
+<p>The FG-COMPASS was developed using a Composite Decision Tree approach (see <a href="#fig-cdt" class="quarto-xref">Figure&nbsp;<span>3.1</span></a>), which combines elements of the Observational Plan (OP)<span class="citation" data-cites="haywood2019">(<a href="references.html#ref-haywood2019" role="doc-biblioref">Haywood &amp; Getchell, 2019</a>)</span> and the Three-Stage (TS) <span class="citation" data-cites="mcclenaghan1978">(<a href="references.html#ref-mcclenaghan1978" role="doc-biblioref">McClenaghan &amp; Gallahue, 1978</a>)</span>models for FMS assessment <span class="citation" data-cites="furtado2009">(<a href="references.html#ref-furtado2009" role="doc-biblioref">Furtado, 2009</a>)</span>. The word composite refers to the practice of assessing FMS as a whole, rather than by body parts (i.e., arms, legs, torso, etc.). Even though individual body parts are considered with the composite method, the final score denotes proficiency levels for the entire body.</p>
+<p>The OP model is a method for assessing motor skill development, particularly in FMS, by systematically observing and recording movement patterns. It emphasizes the importance of a detailed and methodical process to ensure accuracy and reliability of observations. The TS model is a framework for understanding motor skill development, emphasizing the progression from initial attempts at a skill to mature execution. It limits the classification of skills to three stages (initial, elementary, and mature) and selects only key performance criteria for the assessment tasks <span class="citation" data-cites="furtado2012">(<a href="references.html#ref-furtado2012" role="doc-biblioref">Furtado &amp; Gallagher, 2012</a>)</span>. An example of a performance criteria assessed in the FG-COMPASS is the “follow through” when kicking a stationary ball.</p>
 <p>The composite decision trees (CDTs) for each assessment task in the FG-COMPASS is presented in a decision-tree format to facilitate assessment. Each CDT has three stage levels: a discriminatory-decision level (DDL), a confirmatory-decision level (CDL), and an outcome-decision level (ODL).</p>
 <p>The DDL has a single decision node which comprises of one key performance criterion that is intended to discriminate between levels 1 and 4. The CDL is comprised of two performance criteria, each with the intention to confirm whether a performer is level 1 (if NO was selected in the DDL) or level 4 (if YES was selected in DDL). In the case of failing to confirm levels 1 and 4, they default to levels 2 and 3, respectively.</p>
 <div id="fig-cdt" class="quarto-float quarto-figure quarto-figure-right anchored" data-fig-align="right">
@@ -253,25 +387,25 @@ Figure&nbsp;3.1: Framework model for the decision trees of the FG-COMPASS
 </figcaption>
 </figure>
 </div>
-<p>The discriminatory-decision level holds a single decision-node that contains a performance criterion that strongly discriminates between levels 1 and 4 <span class="citation" data-cites="furtado2012">(<a href="#ref-furtado2012" role="doc-biblioref">Furtado &amp; Gallagher, 2012</a>)</span>. The confirmatory-decision level holds two decision-nodes that confirm the child’s skill level. The right-side confirmatory-decision node confirms the whether the child is at level 4, while the left confirmatory-decision node is used to confirm a level 1 skill proficiency. The outcome-decision level provides the final classification of the child’s skill level, from 1 (least proficient) to 4 (most proficient).</p>
-<p>By using this composite decision-tree approach, the FG-COMPASS aims to provide a more practical approach for assessing FMS development; thus, bypassing the need to videotape skill performance. This because it limits the number of performance criteria and classification stages compared to other FMS assessment tools <span class="citation" data-cites="furtado2012">(<a href="#ref-furtado2012" role="doc-biblioref">Furtado &amp; Gallagher, 2012</a>)</span>.</p>
+<p>The discriminatory-decision level holds a single decision-node that contains a performance criterion that strongly discriminates between levels 1 and 4 <span class="citation" data-cites="furtado2012">(<a href="references.html#ref-furtado2012" role="doc-biblioref">Furtado &amp; Gallagher, 2012</a>)</span>. The confirmatory-decision level holds two decision-nodes that confirm the child’s skill level. The right-side confirmatory-decision node confirms the whether the child is at level 4, while the left confirmatory-decision node is used to confirm a level 1 skill proficiency. The outcome-decision level provides the final classification of the child’s skill level, from 1 (least proficient) to 4 (most proficient).</p>
+<p>By using this composite decision-tree approach, the FG-COMPASS aims to provide a more practical approach for assessing FMS development; thus, bypassing the need to videotape skill performance. This because it limits the number of performance criteria and classification stages compared to other FMS assessment tools <span class="citation" data-cites="furtado2012">(<a href="references.html#ref-furtado2012" role="doc-biblioref">Furtado &amp; Gallagher, 2012</a>)</span>.</p>
 </section>
 <section id="the-importance-of-fundamental-movement-skill-development" class="level2" data-number="3.2">
 <h2 data-number="3.2" class="anchored" data-anchor-id="the-importance-of-fundamental-movement-skill-development"><span class="header-section-number">3.2</span> The Importance of Fundamental Movement Skill Development</h2>
 <p>Fundamental movement skill development in children is pivotal to their comprehensive growth and overall well-being. FMS encompasses fundamental motor activities such as running, jumping, and throwing, which engage the large muscle groups of the body. These skills are crucial for physical, cognitive, and social development.</p>
 <section id="physical-activity-and-health" class="level3" data-number="3.2.1">
 <h3 data-number="3.2.1" class="anchored" data-anchor-id="physical-activity-and-health"><span class="header-section-number">3.2.1</span> Physical Activity and Health</h3>
-<p>Multiple studies show positive links between FMS proficiency and physical activity (PA) in children aged 3-10. For instance, <span class="citation" data-cites="dubose2018">DuBose et al. (<a href="#ref-dubose2018" role="doc-biblioref">2018</a>)</span> found children engaged in more moderate to vigorous PA scored higher in motor skills on the MABC-2. Additionally, <span class="citation" data-cites="giuriato2022">Giuriato et al. (<a href="#ref-giuriato2022" role="doc-biblioref">2022</a>)</span> noted that increased lean body mass predicts gross motor coordination (GMC), suggesting GMC development boosts healthy body composition. <span class="citation" data-cites="balakrishnan2023">Balakrishnan &amp; Ramalingam (<a href="#ref-balakrishnan2023" role="doc-biblioref">2023</a>)</span> reported a correlation between sensory processing abilities and gross motor skills in ages 7-10, indicating improvement in motor skills may enhance sensory processing and physical activity engagement. FMS and PA relationship is reciprocal, as PA aids motor skill development. <span class="citation" data-cites="fu2022">Fu et al. (<a href="#ref-fu2022" role="doc-biblioref">2022</a>)</span>’s 12-week functional training program showed improved GMC, fitness, and sensory integration in healthy Chinese children aged 5–6, indicating that targeted interventions positively impact overall fitness. <span class="citation" data-cites="ma2023">Ma &amp; Luo (<a href="#ref-ma2023" role="doc-biblioref">2023</a>)</span> found a strong association between physical activity and both locomotor and object control skills in preschoolers. This suggests promoting physical activity enhances various gross motor skills, fostering a positive cycle for children’s health. Overall, these studies indicate that FMS are vital in influencing PA levels and health in children aged 3-10. The reciprocal relationship emphasizes the need to promote both FMS development and PA in early childhood to foster healthy habits and overall well-being.</p>
+<p>Multiple studies show positive links between FMS proficiency and physical activity (PA) in children aged 3-10. For instance, <span class="citation" data-cites="dubose2018">DuBose et al. (<a href="references.html#ref-dubose2018" role="doc-biblioref">2018</a>)</span> found children engaged in more moderate to vigorous PA scored higher in motor skills on the MABC-2. Additionally, <span class="citation" data-cites="giuriato2022">Giuriato et al. (<a href="references.html#ref-giuriato2022" role="doc-biblioref">2022</a>)</span> noted that increased lean body mass predicts gross motor coordination (GMC), suggesting GMC development boosts healthy body composition. <span class="citation" data-cites="balakrishnan2023">Balakrishnan &amp; Ramalingam (<a href="references.html#ref-balakrishnan2023" role="doc-biblioref">2023</a>)</span> reported a correlation between sensory processing abilities and gross motor skills in ages 7-10, indicating improvement in motor skills may enhance sensory processing and physical activity engagement. FMS and PA relationship is reciprocal, as PA aids motor skill development. <span class="citation" data-cites="fu2022">Fu et al. (<a href="references.html#ref-fu2022" role="doc-biblioref">2022</a>)</span>’s 12-week functional training program showed improved GMC, fitness, and sensory integration in healthy Chinese children aged 5–6, indicating that targeted interventions positively impact overall fitness. <span class="citation" data-cites="ma2023">Ma &amp; Luo (<a href="references.html#ref-ma2023" role="doc-biblioref">2023</a>)</span> found a strong association between physical activity and both locomotor and object control skills in preschoolers. This suggests promoting physical activity enhances various gross motor skills, fostering a positive cycle for children’s health. Overall, these studies indicate that FMS are vital in influencing PA levels and health in children aged 3-10. The reciprocal relationship emphasizes the need to promote both FMS development and PA in early childhood to foster healthy habits and overall well-being.</p>
 </section>
 <section id="cognitive-development" class="level3" data-number="3.2.2">
 <h3 data-number="3.2.2" class="anchored" data-anchor-id="cognitive-development"><span class="header-section-number">3.2.2</span> Cognitive development</h3>
-<p>Numerous studies indicate substantial positive links between gross motor skills and cognitive development in children. For example, <span class="citation" data-cites="veldman2019">Veldman et al. (<a href="#ref-veldman2019" role="doc-biblioref">2019</a>)</span> found a connection in Australian toddlers, while <span class="citation" data-cites="zuccarini2020">Zuccarini et al. (<a href="#ref-zuccarini2020" role="doc-biblioref">2020</a>)</span> noted cascading effects from early motor skills on later cognitive abilities. This implies that gross motor proficiency may influence cognitive outcomes during early childhood transition. Additionally, research connects gross motor abilities with cognitive domains in children aged 3-10. <span class="citation" data-cites="fathirezaie2022">Fathirezaie et al. (<a href="#ref-fathirezaie2022" role="doc-biblioref">2022</a>)</span> found significant ties between executive functions, like inhibition and working memory, and gross motor skills in rural children ages 8-10. This suggests that better motor skills may enhance executive functions critical for academic success. Similarly, <span class="citation" data-cites="geertsen2016">Geertsen et al. (<a href="#ref-geertsen2016" role="doc-biblioref">2016</a>)</span> showed that both fine and gross motor skills correlate positively with cognitive functions and academic performance in preadolescents, emphasizing the importance of motor skill development for cognitive and educational outcomes. Moreover, studies have investigated factors affecting the motor-cognitive relationship in children aged 3-10. <span class="citation" data-cites="viegas2021">Viegas et al. (<a href="#ref-viegas2021" role="doc-biblioref">2021</a>)</span> discovered that preschoolers with low physical activity and cognitive function, especially girls, would likely have delayed gross motor skills. They concluded that these factors independently predict skill delays, indicating a direct link between motor skills and cognitive development.</p>
-<p>The bidirectional influence of motor and cognitive skills in children aged 3-10 is significant; gross motor skills affect cognitive development, and cognitive abilities facilitate motor skill acquisition. <span class="citation" data-cites="capio2022">Capio et al. (<a href="#ref-capio2022" role="doc-biblioref">2022</a>)</span> established that in 5.84-year-old children, object control skills and verbal working memory are linked, illustrating the intricate relationship between physical, motor, and cognitive growth. Additionally, <span class="citation" data-cites="bedford2015">Bedford et al. (<a href="#ref-bedford2015" role="doc-biblioref">2015</a>)</span> found that early gross motor skills forecast language development in children with autism, suggesting that motor proficiency impacts other developmental areas like language acquisition. In conclusion, research strongly indicates that gross motor skill proficiency is vital for cognitive development across domains in children aged 3-10. Promoting motor skill development may yield extensive benefits for holistic development and academic readiness during early and middle childhood.</p>
+<p>Numerous studies indicate substantial positive links between gross motor skills and cognitive development in children. For example, <span class="citation" data-cites="veldman2019">Veldman et al. (<a href="references.html#ref-veldman2019" role="doc-biblioref">2019</a>)</span> found a connection in Australian toddlers, while <span class="citation" data-cites="zuccarini2020">Zuccarini et al. (<a href="references.html#ref-zuccarini2020" role="doc-biblioref">2020</a>)</span> noted cascading effects from early motor skills on later cognitive abilities. This implies that gross motor proficiency may influence cognitive outcomes during early childhood transition. Additionally, research connects gross motor abilities with cognitive domains in children aged 3-10. <span class="citation" data-cites="fathirezaie2022">Fathirezaie et al. (<a href="references.html#ref-fathirezaie2022" role="doc-biblioref">2022</a>)</span> found significant ties between executive functions, like inhibition and working memory, and gross motor skills in rural children ages 8-10. This suggests that better motor skills may enhance executive functions critical for academic success. Similarly, <span class="citation" data-cites="geertsen2016">Geertsen et al. (<a href="references.html#ref-geertsen2016" role="doc-biblioref">2016</a>)</span> showed that both fine and gross motor skills correlate positively with cognitive functions and academic performance in preadolescents, emphasizing the importance of motor skill development for cognitive and educational outcomes. Moreover, studies have investigated factors affecting the motor-cognitive relationship in children aged 3-10. <span class="citation" data-cites="viegas2021">Viegas et al. (<a href="references.html#ref-viegas2021" role="doc-biblioref">2021</a>)</span> discovered that preschoolers with low physical activity and cognitive function, especially girls, would likely have delayed gross motor skills. They concluded that these factors independently predict skill delays, indicating a direct link between motor skills and cognitive development.</p>
+<p>The bidirectional influence of motor and cognitive skills in children aged 3-10 is significant; gross motor skills affect cognitive development, and cognitive abilities facilitate motor skill acquisition. <span class="citation" data-cites="capio2022">Capio et al. (<a href="references.html#ref-capio2022" role="doc-biblioref">2022</a>)</span> established that in 5.84-year-old children, object control skills and verbal working memory are linked, illustrating the intricate relationship between physical, motor, and cognitive growth. Additionally, <span class="citation" data-cites="bedford2015">Bedford et al. (<a href="references.html#ref-bedford2015" role="doc-biblioref">2015</a>)</span> found that early gross motor skills forecast language development in children with autism, suggesting that motor proficiency impacts other developmental areas like language acquisition. In conclusion, research strongly indicates that gross motor skill proficiency is vital for cognitive development across domains in children aged 3-10. Promoting motor skill development may yield extensive benefits for holistic development and academic readiness during early and middle childhood.</p>
 </section>
 <section id="social-development" class="level3" data-number="3.2.3">
 <h3 data-number="3.2.3" class="anchored" data-anchor-id="social-development"><span class="header-section-number">3.2.3</span> Social development</h3>
-<p>Studies show a positive link between gross motor skills and social development in children aged 3-10. <span class="citation" data-cites="salaj2022">Šalaj &amp; Masnjak (<a href="#ref-salaj2022" role="doc-biblioref">2022</a>)</span> found a weak correlation between motor skills and social-emotional functioning in preschoolers, underscoring the importance of gross motor skill development in enhancing children’s social and emotional growth. Gross motor skills also significantly affect children’s emotional understanding and social interactions. <span class="citation" data-cites="zhang2023">Zhang et al. (<a href="#ref-zhang2023" role="doc-biblioref">2023</a>)</span> discovered that object control skills predict emotional comprehension in ages 3-6, suggesting that improving these skills aids in interpreting emotions vital for social engagement. This study highlights the interconnectedness of motor, cognitive, and socio-emotional development in early childhood. Moreover, gross motor skills influence peer interactions and social competence. <span class="citation" data-cites="redondo-tebar2021">Redondo-Tebar et al. (<a href="#ref-redondo-tebar2021" role="doc-biblioref">2021</a>)</span> noted that higher motor competence is associated with better health-related quality of life, especially in self-esteem and friendships among typically developing children. Enhanced motor skills foster more positive social experiences and confidence in interactions. Furthermore, <span class="citation" data-cites="crane2023">Crane et al. (<a href="#ref-crane2023" role="doc-biblioref">2023</a>)</span> studied motor competence in 8-year-olds, revealing a complex relationship between motor skills and social factors.</p>
-<p>Lastly, the relationship between gross motor skills and social development varies with age and other influences. <span class="citation" data-cites="peyre2019">Peyre et al. (<a href="#ref-peyre2019" role="doc-biblioref">2019</a>)</span> found that cognitive factors predict changes in motor skills from ages 3 to 6, indicating a reciprocal relationship that can impact social growth. <span class="citation" data-cites="barnett2016">Barnett et al. (<a href="#ref-barnett2016" role="doc-biblioref">2016</a>)</span> identified age, gender, and activity levels as significant influences on gross motor competence. These findings call for a broad perspective in examining how motor skills interplay with social development.</p>
+<p>Studies show a positive link between gross motor skills and social development in children aged 3-10. <span class="citation" data-cites="salaj2022">Šalaj &amp; Masnjak (<a href="references.html#ref-salaj2022" role="doc-biblioref">2022</a>)</span> found a weak correlation between motor skills and social-emotional functioning in preschoolers, underscoring the importance of gross motor skill development in enhancing children’s social and emotional growth. Gross motor skills also significantly affect children’s emotional understanding and social interactions. <span class="citation" data-cites="zhang2023">Zhang et al. (<a href="references.html#ref-zhang2023" role="doc-biblioref">2023</a>)</span> discovered that object control skills predict emotional comprehension in ages 3-6, suggesting that improving these skills aids in interpreting emotions vital for social engagement. This study highlights the interconnectedness of motor, cognitive, and socio-emotional development in early childhood. Moreover, gross motor skills influence peer interactions and social competence. <span class="citation" data-cites="redondo-tebar2021">Redondo-Tebar et al. (<a href="references.html#ref-redondo-tebar2021" role="doc-biblioref">2021</a>)</span> noted that higher motor competence is associated with better health-related quality of life, especially in self-esteem and friendships among typically developing children. Enhanced motor skills foster more positive social experiences and confidence in interactions. Furthermore, <span class="citation" data-cites="crane2023">Crane et al. (<a href="references.html#ref-crane2023" role="doc-biblioref">2023</a>)</span> studied motor competence in 8-year-olds, revealing a complex relationship between motor skills and social factors.</p>
+<p>Lastly, the relationship between gross motor skills and social development varies with age and other influences. <span class="citation" data-cites="peyre2019">Peyre et al. (<a href="references.html#ref-peyre2019" role="doc-biblioref">2019</a>)</span> found that cognitive factors predict changes in motor skills from ages 3 to 6, indicating a reciprocal relationship that can impact social growth. <span class="citation" data-cites="barnett2016">Barnett et al. (<a href="references.html#ref-barnett2016" role="doc-biblioref">2016</a>)</span> identified age, gender, and activity levels as significant influences on gross motor competence. These findings call for a broad perspective in examining how motor skills interplay with social development.</p>
 <p>In conclusion, the relationship between gross motor skills and social development in 3-10-year-olds is complex and changes over time. Research indicates that improving gross motor skills positively affects emotional understanding, peer interactions, and overall competence. However, this relationship varies due to multiple factors, highlighting the need for comprehensive support in child development.</p>
 </section>
 </section>
@@ -289,7 +423,7 @@ Figure&nbsp;3.1: Framework model for the decision trees of the FG-COMPASS
 </section>
 <section id="content-validity" class="level1" data-number="4">
 <h1 data-number="4"><span class="header-section-number">4</span> Content Validity</h1>
-<p>To establish the content validity of the FG-COMPASS, we undertook a systematic evaluation process led by experts. This approach combined quantitative ratings with valuable qualitative feedback <span class="citation" data-cites="furtado2004">(<a href="#ref-furtado2004" role="doc-biblioref">Furtado, 2004</a>)</span>. We began by selecting a panel of 20 content experts, which included eight university professors and twelve experienced physical education teachers. Their extensive theoretical knowledge and practical experience made them well-equipped to provide insightful judgments. We initiated contact with these experts using a standardized protocol, starting with phone calls followed by detailed email instructions to ensure clarity.</p>
+<p>To establish the content validity of the FG-COMPASS, we undertook a systematic evaluation process led by experts. This approach combined quantitative ratings with valuable qualitative feedback <span class="citation" data-cites="furtado2004">(<a href="references.html#ref-furtado2004" role="doc-biblioref">Furtado, 2004</a>)</span>. We began by selecting a panel of 20 content experts, which included eight university professors and twelve experienced physical education teachers. Their extensive theoretical knowledge and practical experience made them well-equipped to provide insightful judgments. We initiated contact with these experts using a standardized protocol, starting with phone calls followed by detailed email instructions to ensure clarity.</p>
 <p>We created an Internet-based item review form to gather evidence at both the item and test levels. Experts were asked to evaluate each proposed test item—targeting both movement concepts and fundamental movement skills—using a 4-point Likert scale that ranged from “not important at all” to “very important.” Additionally, a 5-point scale was employed at the test level to assess how well the item pool aligned with the overall purpose of the test and its representativeness in relation to content taught in physical education. This dual approach allowed us to thoroughly scrutinize both individual components and the integrated set of items.</p>
 <p>When it came to data analysis, we employed both quantitative and qualitative methods. We calculated descriptive statistics, such as percentage distributions and median scores, to see if the items met our acceptance criteria—specifically, we set a threshold that required at least 67% of respondents to rate an item as “very” or “moderately” important. Alongside this, we carefully analyzed the qualitative comments from the experts to identify items that might have been overly specific, too easy, or not aligned with the intended domain. This careful and comprehensive analysis guided our decisions on whether to revise, collapse, or exclude certain items.</p>
 <p>In the end, this iterative refinement process enabled us to adjust the initial pool of 31 items based on the expert input we received. The combination of expert feedback and statistical analysis ensured that the final test content accurately represented the domains of movement concepts and fundamental movement skills as defined in the National Standards for Physical Education. This thorough process not only provided strong initial support for the content-related validity of our assessment tool but also highlighted its relevance for tracking individual progress, evaluating instructional effectiveness, and pinpointing specific deficits in motor skill development.</p>
@@ -297,33 +431,33 @@ Figure&nbsp;3.1: Framework model for the decision trees of the FG-COMPASS
 <section id="expert-rater-agreement" class="level1" data-number="5">
 <h1 data-number="5"><span class="header-section-number">5</span> Expert-Rater Agreement</h1>
 <p>Expert-rater agreement is a crucial aspect of establishing the reliability and validity of any assessment tool, including the FG-COMPASS. In the context of the FG-COMPASS, expert-rater agreement refers to the level of consistency and agreement among trained raters when scoring children’s performance on the assessment tasks. This is particularly important because the FG-COMPASS relies on observational assessments, which can be subjective and influenced by individual raters’ interpretations.</p>
-<p>The evolution of the FG‑COMPASS has been marked by continuous efforts to enhance its reliability and utility as an observational tool for assessing fundamental movement skills in children. Early work by <span class="citation" data-cites="furtado2012">Furtado &amp; Gallagher (<a href="#ref-furtado2012" role="doc-biblioref">2012</a>)</span> laid the foundation by demonstrating acceptable expert‑rater agreement on the original set of 11 rating scales, with weighted kappa values ranging from 0.51 to 0.85 (mean = 0.71). These findings established a solid basis for the instrument’s reliability and led to targeted refinements in subsequent research.</p>
-<p>In their follow‑up investigation, <span class="citation" data-cites="furtado2018">Furtado &amp; Gallagher (<a href="#ref-furtado2018" role="doc-biblioref">2018</a>)</span> revisited and modified the original scales, resulting in improved agreement for most measures. Their study confirmed that four of the revised scales achieved “good” to “very good” expert‑rater agreement. In contrast, the scales for side sliding and leaping—due to persistent subjectivity and inconsistency—were removed from the test.</p>
-<p>Building on this extensive groundwork, <span class="citation" data-cites="perez2024">Perez (<a href="#ref-perez2024" role="doc-biblioref">2024</a>)</span> extended the instrument by investigating the inclusion of two new locomotor skills—vertical jump and gallop—to further improve the FG‑COMPASS. In their study, 60 children aged 5–10 years were filmed performing these new skills, and an expert used newly developed rating scales, based on literature‑supported performance criteria, to classify the performances. Thirty undergraduate raters underwent comprehensive training and then rated a set of video clips. The expert‑non‑expert agreement for the new vertical jump scale was exceptionally high (weighted kappa = 0.96, ICC = 0.98), while the gallop scale also demonstrated strong agreement (weighted kappa = 0.89, ICC = 0.94). Inter‑rater reliability among non‑expert raters was very good for vertical jump (mean kappa = 0.92) and reached a moderate level for gallop (mean kappa = 0.78), with intra‑rater reliability similarly robust for both skills.</p>
+<p>The evolution of the FG‑COMPASS has been marked by continuous efforts to enhance its reliability and utility as an observational tool for assessing fundamental movement skills in children. Early work by <span class="citation" data-cites="furtado2012">Furtado &amp; Gallagher (<a href="references.html#ref-furtado2012" role="doc-biblioref">2012</a>)</span> laid the foundation by demonstrating acceptable expert‑rater agreement on the original set of 11 rating scales, with weighted kappa values ranging from 0.51 to 0.85 (mean = 0.71). These findings established a solid basis for the instrument’s reliability and led to targeted refinements in subsequent research.</p>
+<p>In their follow‑up investigation, <span class="citation" data-cites="furtado2018">Furtado &amp; Gallagher (<a href="references.html#ref-furtado2018" role="doc-biblioref">2018</a>)</span> revisited and modified the original scales, resulting in improved agreement for most measures. Their study confirmed that four of the revised scales achieved “good” to “very good” expert‑rater agreement. In contrast, the scales for side sliding and leaping—due to persistent subjectivity and inconsistency—were removed from the test.</p>
+<p>Building on this extensive groundwork, <span class="citation" data-cites="perez2024">Perez (<a href="references.html#ref-perez2024" role="doc-biblioref">2024</a>)</span> extended the instrument by investigating the inclusion of two new locomotor skills—vertical jump and gallop—to further improve the FG‑COMPASS. In their study, 60 children aged 5–10 years were filmed performing these new skills, and an expert used newly developed rating scales, based on literature‑supported performance criteria, to classify the performances. Thirty undergraduate raters underwent comprehensive training and then rated a set of video clips. The expert‑non‑expert agreement for the new vertical jump scale was exceptionally high (weighted kappa = 0.96, ICC = 0.98), while the gallop scale also demonstrated strong agreement (weighted kappa = 0.89, ICC = 0.94). Inter‑rater reliability among non‑expert raters was very good for vertical jump (mean kappa = 0.92) and reached a moderate level for gallop (mean kappa = 0.78), with intra‑rater reliability similarly robust for both skills.</p>
 <p>Collectively, the findings of these studies indicate that the FG‑COMPASS can be relied upon for consistent classification decisions. The initial work by Furtado and Gallagher (2012, 2018) established strong expert‑rater agreement and consistency across the original skills, and the subsequent inclusion of vertical jump and gallop, as investigated by Perez and Furtado (2024), expands the scope of the locomotor subscale without compromising the instrument’s reliability. This progression underscores the FG‑COMPASS’s potential as a practical and objective tool for assessing FMS development in children, supporting its adoption in both research and educational contexts.</p>
 </section>
 <section id="inter-rater-reliability" class="level1" data-number="6">
 <h1 data-number="6"><span class="header-section-number">6</span> Inter-Rater Reliability</h1>
-<p>Inter‑rater reliability for the FG‑COMPASS has been examined and re‑examined through multiple studies. In the initial work by <span class="citation" data-cites="furtado2012">Furtado &amp; Gallagher (<a href="#ref-furtado2012" role="doc-biblioref">2012</a>)</span>, raters, who received standardized training, independently coded videotaped fundamental movement skills. Weighted kappa analyses revealed agreement values ranging from 0.51 to 0.85 (mean = 0.71), establishing an already “good” level of inter‑rater consistency for the original set of rating scales.</p>
-<p>Finally, <span class="citation" data-cites="woolever2016">Woolever (<a href="#ref-woolever2016" role="doc-biblioref">2016</a>)</span> investigated live assessments (as opposed to video‑based ones) and found that inter‑rater reliability remained “good,” albeit somewhat lower than the strong values observed under controlled video conditions. Even so, their results supported the FG‑COMPASS as a practical tool for real‑world educational or research settings, where live evaluations are often needed.</p>
-<p>A subsequent refinement by <span class="citation" data-cites="furtado2018">Furtado &amp; Gallagher (<a href="#ref-furtado2018" role="doc-biblioref">2018</a>)</span> involved slight revisions to the locomotor domain. Once again, multiple raters underwent systematic training and then independently scored children’s recorded performances. Here, the combined locomotor and manipulative subtests yielded an intraclass correlation coefficient (ICC) approaching 0.89, indicating improved rater consensus following the scale modifications.</p>
-<p>More recently, <span class="citation" data-cites="perez2024">Perez (<a href="#ref-perez2024" role="doc-biblioref">2024</a>)</span> introduced two new locomotor skills—vertical jump and gallop—to the FG‑COMPASS. A cohort of non‑expert raters was trained on these novel scales and asked to evaluate videotaped performances. The vertical jump scale demonstrated notably high inter‑rater reliability (mean weighted kappa = 0.92; ICC = 0.98), while the gallop scale, though slightly lower, still achieved robust agreement (mean weighted kappa = 0.78; ICC = 0.95).</p>
+<p>Inter‑rater reliability for the FG‑COMPASS has been examined and re‑examined through multiple studies. In the initial work by <span class="citation" data-cites="furtado2012">Furtado &amp; Gallagher (<a href="references.html#ref-furtado2012" role="doc-biblioref">2012</a>)</span>, raters, who received standardized training, independently coded videotaped fundamental movement skills. Weighted kappa analyses revealed agreement values ranging from 0.51 to 0.85 (mean = 0.71), establishing an already “good” level of inter‑rater consistency for the original set of rating scales.</p>
+<p>Finally, <span class="citation" data-cites="woolever2016">Woolever (<a href="references.html#ref-woolever2016" role="doc-biblioref">2016</a>)</span> investigated live assessments (as opposed to video‑based ones) and found that inter‑rater reliability remained “good,” albeit somewhat lower than the strong values observed under controlled video conditions. Even so, their results supported the FG‑COMPASS as a practical tool for real‑world educational or research settings, where live evaluations are often needed.</p>
+<p>A subsequent refinement by <span class="citation" data-cites="furtado2018">Furtado &amp; Gallagher (<a href="references.html#ref-furtado2018" role="doc-biblioref">2018</a>)</span> involved slight revisions to the locomotor domain. Once again, multiple raters underwent systematic training and then independently scored children’s recorded performances. Here, the combined locomotor and manipulative subtests yielded an intraclass correlation coefficient (ICC) approaching 0.89, indicating improved rater consensus following the scale modifications.</p>
+<p>More recently, <span class="citation" data-cites="perez2024">Perez (<a href="references.html#ref-perez2024" role="doc-biblioref">2024</a>)</span> introduced two new locomotor skills—vertical jump and gallop—to the FG‑COMPASS. A cohort of non‑expert raters was trained on these novel scales and asked to evaluate videotaped performances. The vertical jump scale demonstrated notably high inter‑rater reliability (mean weighted kappa = 0.92; ICC = 0.98), while the gallop scale, though slightly lower, still achieved robust agreement (mean weighted kappa = 0.78; ICC = 0.95).</p>
 <p>Taken together, these studies consistently confirm that trained raters can achieve sound inter‑rater reliability when using the FG‑COMPASS to assess a broad spectrum of FMS in children, whether under controlled video conditions or in live evaluations.</p>
 </section>
 <section id="intra-rater-reliability" class="level1" data-number="7">
 <h1 data-number="7"><span class="header-section-number">7</span> Intra-Rater Reliability</h1>
-<p>Intra‑rater reliability for the FG‑COMPASS has been documented in multiple studies using a retest or repeated‑rating format, wherein the same raters evaluated children’s performances on two different occasions and their initial and follow‑up ratings were compared. In <span class="citation" data-cites="woolever2016">Woolever (<a href="#ref-woolever2016" role="doc-biblioref">2016</a>)</span>, raters used the FG‑COMPASS in live physical education settings and then repeated their evaluations after a short delay. Weighted kappa statistics across locomotor and manipulative tasks ranged from about 0.70 to 0.85, indicative of “good” or “excellent” reproducibility for individual raters under real‑world conditions.</p>
-<p>Similarly, <span class="citation" data-cites="furtado2018">Furtado &amp; Gallagher (<a href="#ref-furtado2018" role="doc-biblioref">2018</a>)</span> employed a video‑based approach in which raters first scored children’s recorded performances and then returned after an interval of approximately one week to re‑score the same video clips in a randomized order. Both weighted kappa and intraclass correlation coefficient (ICC) analyses confirmed “good” to “excellent” agreement between the two rounds of scoring, typically yielding kappa values above 0.80 and ICCs near or exceeding 0.90 for both locomotor and manipulative components.</p>
-<p>More recently, <span class="citation" data-cites="perez2024">Perez (<a href="#ref-perez2024" role="doc-biblioref">2024</a>)</span> introduced two new FG‑COMPASS scales for vertical jump and gallop and tested intra‑rater reliability in a similar fashion. After rating a set of videos, the same raters returned one week later to re‑score the same clips, with the mean weighted kappa for vertical jump reaching 0.96 (ICC = 0.98), while gallop obtained 0.85 (ICC = 0.92). Taken together, these findings indicate that once raters have received consistent FG‑COMPASS training, they can reliably replicate their own scoring decisions over time, whether the tool is used in controlled video reviews or during live assessments.</p>
+<p>Intra‑rater reliability for the FG‑COMPASS has been documented in multiple studies using a retest or repeated‑rating format, wherein the same raters evaluated children’s performances on two different occasions and their initial and follow‑up ratings were compared. In <span class="citation" data-cites="woolever2016">Woolever (<a href="references.html#ref-woolever2016" role="doc-biblioref">2016</a>)</span>, raters used the FG‑COMPASS in live physical education settings and then repeated their evaluations after a short delay. Weighted kappa statistics across locomotor and manipulative tasks ranged from about 0.70 to 0.85, indicative of “good” or “excellent” reproducibility for individual raters under real‑world conditions.</p>
+<p>Similarly, <span class="citation" data-cites="furtado2018">Furtado &amp; Gallagher (<a href="references.html#ref-furtado2018" role="doc-biblioref">2018</a>)</span> employed a video‑based approach in which raters first scored children’s recorded performances and then returned after an interval of approximately one week to re‑score the same video clips in a randomized order. Both weighted kappa and intraclass correlation coefficient (ICC) analyses confirmed “good” to “excellent” agreement between the two rounds of scoring, typically yielding kappa values above 0.80 and ICCs near or exceeding 0.90 for both locomotor and manipulative components.</p>
+<p>More recently, <span class="citation" data-cites="perez2024">Perez (<a href="references.html#ref-perez2024" role="doc-biblioref">2024</a>)</span> introduced two new FG‑COMPASS scales for vertical jump and gallop and tested intra‑rater reliability in a similar fashion. After rating a set of videos, the same raters returned one week later to re‑score the same clips, with the mean weighted kappa for vertical jump reaching 0.96 (ICC = 0.98), while gallop obtained 0.85 (ICC = 0.92). Taken together, these findings indicate that once raters have received consistent FG‑COMPASS training, they can reliably replicate their own scoring decisions over time, whether the tool is used in controlled video reviews or during live assessments.</p>
 </section>
 <section id="concurrent-validity" class="level1" data-number="8">
 <h1 data-number="8"><span class="header-section-number">8</span> Concurrent Validity</h1>
 <p>Concurrent validity is a crucial aspect of establishing the trustworthiness and practical utility of any assessment tool, especially in the field of motor skill development. In assessing fundamental motor skills in children, concurrent validity is particularly important because it ensures that a new assessment tool accurately reflects the child’s actual motor abilities, aligning with established benchmarks.</p>
-<p>In their study, <span class="citation" data-cites="woolever2016">Woolever (<a href="#ref-woolever2016" role="doc-biblioref">2016</a>)</span> investigated the instrument’s concurrent validity by comparing its results to those of the Test of Gross Motor Development–Second Edition (TGMD‑2) <span class="citation" data-cites="ulrich2000">(<a href="#ref-ulrich2000" role="doc-biblioref">Ulrich, 2000</a>)</span>. After children’s live skill performances were independently assessed with both tools, the researchers used the intraclass correlation coefficient (ICC) and Bland‑Altman analysis to evaluate the agreement between their locomotor, manipulative, and total scores.</p>
+<p>In their study, <span class="citation" data-cites="woolever2016">Woolever (<a href="references.html#ref-woolever2016" role="doc-biblioref">2016</a>)</span> investigated the instrument’s concurrent validity by comparing its results to those of the Test of Gross Motor Development–Second Edition (TGMD‑2) <span class="citation" data-cites="ulrich2000">(<a href="references.html#ref-ulrich2000" role="doc-biblioref">Ulrich, 2000</a>)</span>. After children’s live skill performances were independently assessed with both tools, the researchers used the intraclass correlation coefficient (ICC) and Bland‑Altman analysis to evaluate the agreement between their locomotor, manipulative, and total scores.</p>
 <p>They found that, for the locomotor subtest (LFMS), the FG‑COMPASS and the TGMD‑2 demonstrated an ICC of 0.68—considered “good” agreement—while the manipulative subtest (MFMS) reached an ICC of 0.89, classified as “excellent.” When combining both subtests into a single total FMS score (TFMS), the ICC remained “excellent” at 0.89. Bland‑Altman plots revealed mean biases close to zero for all three categories, indicating minimal systematic differences between the two assessments. Therefore, the FG‑COMPASS and the TGMD‑2 measure children’s gross motor proficiency in a sufficiently similar manner, thus confirming the FG‑COMPASS’s concurrent validity under live conditions</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list" style="display: none">
 <div id="ref-balakrishnan2023" class="csl-entry" role="listitem">
 Balakrishnan, P., &amp; Ramalingam, V. (2023). The correlations between sensory processing abilities and gross motor skills among children aged 7-10 years old. <em>International Journal of Medical and Exercise Science</em>, <em>9</em>(3), 1564–1579.
 </div>
@@ -414,6 +548,45 @@ Zuccarini, M., Guarini, A., Savini, S., Faldella, G., &amp; Sansavini, A. (2020)
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(darkModeDefault) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    }
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {

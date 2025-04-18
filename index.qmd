@@ -1,14 +1,9 @@
----
-plugin: downloadthis
----
-
 # Preface {.unnumbered}
 
 Fundamental Movement Skills (FMS) lie at the heart of children’s overall development, serving as the building blocks for a lifetime of active and healthy living. The Furtado-Gallagher Children Observational Movement Pattern Assessment System (FG-COMPASS) was created to provide a user-friendly, evidence-based method for assessing these skills in children aged 5 to 10 years. Building upon well-established theories and previous research in motor development, this manual offers educators, researchers, coaches, and healthcare professionals a clear framework for understanding, administering, and interpreting the FG-COMPASS.
 
 
-{{< downloadthis FG-COMPASS-Manual.pdf dname=File label="Download the pdf" icon=file-earmark-pdf type=success >}}
-
+{{< bi filetype-pdf alarm size=1.6em color=#d9796c >}} [Download the Manual](FG-COMPASS-Manual.pdf)
 
 ## A Journey of Research and Practice
 Over the past decade, considerable effort has been devoted to refining the FG-COMPASS to ensure that it is practical, psychometrically sound, and accessible to both novice and expert raters. Early work focused on establishing expert-rater agreement and verifying the instrument’s inter- and intra-rater reliability, ensuring that FG-COMPASS scores accurately represent a child’s skill proficiency. Subsequent investigations addressed the addition of new locomotor tasks—such as the vertical jump and gallop—and confirmed that these expanded scales maintained the high reliability and consistency standards set by the original assessment. Through these enhancements, the FG-COMPASS offers a comprehensive view of key FMS that are commonly taught and developed across preschool and elementary-age programs.

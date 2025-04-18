@@ -69,10 +69,10 @@ This section includes the Examiner Group Record Forms used to collect FG-COMPASS
 
 | Image | Description |
 |-------|-------------|
-| ![](static/images/man-ot/ot1.png) | **Level 1**<br>The trunk faces the target, and there is no step forward. Jumping up and down is not considered a step forward. |
-| ![](static/images/man-ot/ot2.png) | **Level 2**<br>Minimal or no trunk rotation is observed during the preparatory phase. However, a forward step is taken, using either foot. |
-| ![](static/images/man-ot/ot3.png) | **Level 3**<br>The movement involves a trunk rotation to one side and a slight step forward with the opposite leg. |
-| ![](static/images/man-ot/ot4.png) | **Level 4**<br>The trunk rotates to the side with a long contralateral step forward (at least half the performer's height). |
+| ![](static/images/man-ot/ot1.png){width=100%} | **Level 1**<br>The trunk faces the target, and there is no step forward. Jumping up and down is not considered a step forward. |
+| ![](static/images/man-ot/ot2.png){width=100%} | **Level 2**<br>Minimal or no trunk rotation is observed during the preparatory phase. However, a forward step is taken, using either foot. |
+| ![](static/images/man-ot/ot3.png){width=100%} | **Level 3**<br>The movement involves a trunk rotation to one side and a slight step forward with the opposite leg. |
+| ![](static/images/man-ot/ot4.png){width=100%} | **Level 4**<br>The trunk rotates to the side with a long contralateral step forward (at least half the performer's height). |
 
 ## Kick
 
@@ -109,10 +109,10 @@ This section includes the Examiner Group Record Forms used to collect FG-COMPASS
 
 | Image | Description |
 |-------|-------------|
-| ![](static/images/man-kick/ki1.png) | **Level 1**<br>The child stands behind the ball and kicks it without stepping forward. |
-| ![](static/images/man-kick/ki2.png) | **Level 2**<br>At least one step is taken before kicking the ball without a long stride or leap. It often appears as though the child runs directly through the ball. |
-| ![](static/images/man-kick/ki3.png) | **Level 3**<br>Before kicking, there are a few steps toward the ball with a lengthened stride or jump. However, there is no follow-through after the kick. |
-| ![](static/images/man-kick/ki4.png) | **Level 4**<br>There is a long stride or leap before contacting the ball. After contact, the placement foot continues moving forward. |
+| ![](static/images/man-kick/ki1.png){width=100%} | **Level 1**<br>The child stands behind the ball and kicks it without stepping forward. |
+| ![](static/images/man-kick/ki2.png){width=100%} | **Level 2**<br>At least one step is taken before kicking the ball without a long stride or leap. It often appears as though the child runs directly through the ball. |
+| ![](static/images/man-kick/ki3.png){width=100%} | **Level 3**<br>Before kicking, there are a few steps toward the ball with a lengthened stride or jump. However, there is no follow-through after the kick. |
+| ![](static/images/man-kick/ki4.png){width=100%} | **Level 4**<br>There is a long stride or leap before contacting the ball. After contact, the placement foot continues moving forward. |
 
 ## Dribble
 
@@ -152,10 +152,10 @@ This section includes the Examiner Group Record Forms used to collect FG-COMPASS
 
 | Image | Description |
 |:-----:|-------------|
-| ![](static/images/man-dribble/dr1.png) | **Level 1**<br>The child struggles to control the ball as it bounces erratically and loses control at least once. |
-| ![](static/images/man-dribble/dr2.png) | **Level 2**<br>Despite a lack of control, the child bounces the ball continuously for 15 seconds. |
-| ![](static/images/man-dribble/dr3.png) | **Level 3**<br>Vision is used to maintain ball control. Bounces occur in front of or to the outside of the child's preferred foot, and the child has more control over the ball. |
-| ![](static/images/man-dribble/dr4.png) | **Level 4**<br>Control is clear, and the child does not rely on vision to maintain ball control. |
+| ![](static/images/man-dribble/dr1.png){width=100%} | **Level 1**<br>The child struggles to control the ball as it bounces erratically and loses control at least once. |
+| ![](static/images/man-dribble/dr2.png){width=100%} | **Level 2**<br>Despite a lack of control, the child bounces the ball continuously for 15 seconds. |
+| ![](static/images/man-dribble/dr3.png){width=100%} | **Level 3**<br>Vision is used to maintain ball control. Bounces occur in front of or to the outside of the child's preferred foot, and the child has more control over the ball. |
+| ![](static/images/man-dribble/dr4.png){width=100%} | **Level 4**<br>Control is clear, and the child does not rely on vision to maintain ball control. |
 
 ## Catch
 
@@ -193,10 +193,10 @@ This section includes the Examiner Group Record Forms used to collect FG-COMPASS
 
 | Image | Description |
 |-------|-------------|
-| ![](static/images/man-catch/ca1.png) | **Level 1**<br>The child uses a scooping action to secure the ball against the chest. |
-| ![](static/images/man-catch/ca2.png) | **Level 2**<br>Following a successful catch, the ball is not secured against the chest but touches a body part other than the hands. |
-| ![](static/images/man-catch/ca3.png) | **Level 3**<br>The action lacks coordination, with the ball making contact only with the hands. Players often extend their arms and/or turn their faces to the side. |
-| ![](static/images/man-catch/ca4.png) | **Level 4**<br>Action is well-timed with the simultaneous motion of hands. |
+| ![](static/images/man-catch/ca1.png){width=100%} | **Level 1**<br>The child uses a scooping action to secure the ball against the chest. |
+| ![](static/images/man-catch/ca2.png){width=100%} | **Level 2**<br>Following a successful catch, the ball is not secured against the chest but touches a body part other than the hands. |
+| ![](static/images/man-catch/ca3.png){width=100%} | **Level 3**<br>The action lacks coordination, with the ball making contact only with the hands. Players often extend their arms and/or turn their faces to the side. |
+| ![](static/images/man-catch/ca4.png){width=100%} | **Level 4**<br>Action is well-timed with the simultaneous motion of hands. |
 
 ## Striking
 
@@ -236,10 +236,10 @@ This section includes the Examiner Group Record Forms used to collect FG-COMPASS
 
 | Image | Description |
 |-------|-------------|
-| ![](static/images/man-strike/st1.png) | **Level 1**<br>The arm action is from back to front and resembles a vertical chopping motion. |
-| ![](static/images/man-strike/st2.png) | **Level 2**<br>The motion occurs on the horizontal plane, but the action is limited in its amplitude. Often, the bat is held in front of the body. |
-| ![](static/images/man-strike/st3.png) | **Level 3**<br>The strike does occur in a long (full arc) horizontal plan, but there is no body weight transfer. |
-| ![](static/images/man-strike/st4.png) | **Level 4**<br>Same as Level 3, but now there is a transfer of body weight in the direction of the strike, which occurs from one to the other leg. |
+| ![](static/images/man-strike/st1.png){width=100%} | **Level 1**<br>The arm action is from back to front and resembles a vertical chopping motion. |
+| ![](static/images/man-strike/st2.png){width=100%} | **Level 2**<br>The motion occurs on the horizontal plane, but the action is limited in its amplitude. Often, the bat is held in front of the body. |
+| ![](static/images/man-strike/st3.png){width=100%} | **Level 3**<br>The strike does occur in a long (full arc) horizontal plan, but there is no body weight transfer. |
+| ![](static/images/man-strike/st4.png){width=100%} | **Level 4**<br>Same as Level 3, but now there is a transfer of body weight in the direction of the strike, which occurs from one to the other leg. |
 
 # Locomotor Subscale
 
@@ -278,10 +278,10 @@ This section includes the Examiner Group Record Forms used to collect FG-COMPASS
 
 | Image | Description |
 |-------|-------------|
-| ![](static/images/loc-hop/ho1.png) | **Level 1**<br>The suspended leg is held in front of the body. |
-| ![](static/images/loc-hop/ho2.png) | **Level 2**<br>The knee is flexed with the foot of the hanging leg held near the buttocks. |
-| ![](static/images/loc-hop/ho3.png) | **Level 3**<br>The hanging leg is held back with the thigh vertically. |
-| ![](static/images/loc-hop/ho4.png) | **Level 4**<br>Similar to Level 3, the foot of the hanging leg crosses the line of the support leg like a pendulum. |
+| ![](static/images/loc-hop/ho1.png){width=100%} | **Level 1**<br>The suspended leg is held in front of the body. |
+| ![](static/images/loc-hop/ho2.png){width=100%} | **Level 2**<br>The knee is flexed with the foot of the hanging leg held near the buttocks. |
+| ![](static/images/loc-hop/ho3.png){width=100%} | **Level 3**<br>The hanging leg is held back with the thigh vertically. |
+| ![](static/images/loc-hop/ho4.png){width=100%} | **Level 4**<br>Similar to Level 3, the foot of the hanging leg crosses the line of the support leg like a pendulum. |
 
 ## Horizontal Jump
 
@@ -318,10 +318,10 @@ This section includes the Examiner Group Record Forms used to collect FG-COMPASS
 
 | Image | Description |
 |-------|-------------|
-| ![](static/images/loc-hj/hj1.png) | **Level 1**<br>The arm action is inconsistent with no defined pattern, sometimes even motionless. The takeoff and/or landing is executed on one foot. |
-| ![](static/images/loc-hj/hj2.png) | **Level 2**<br>The arm action may still be inconsistent, but the takeoff/landing is executed on both feet. |
-| ![](static/images/loc-hj/hj3.png) | **Level 3**<br>The arms move forward and upward during takeoff and then downward at landing. But the hands do not exceed the height of the head at liftoff. |
-| ![](static/images/loc-hj/hj4.png) | **Level 4**<br>A pattern similar to Level 3, but the hands are high above the head during the liftoff. |
+| ![](static/images/loc-hj/hj1.png){width=100%} | **Level 1**<br>The arm action is inconsistent with no defined pattern, sometimes even motionless. The takeoff and/or landing is executed on one foot. |
+| ![](static/images/loc-hj/hj2.png){width=100%} | **Level 2**<br>The arm action may still be inconsistent, but the takeoff/landing is executed on both feet. |
+| ![](static/images/loc-hj/hj3.png){width=100%} | **Level 3**<br>The arms move forward and upward during takeoff and then downward at landing. But the hands do not exceed the height of the head at liftoff. |
+| ![](static/images/loc-hj/hj4.png){width=100%} | **Level 4**<br>A pattern similar to Level 3, but the hands are high above the head during the liftoff. |
 
 ## Skip
 
@@ -357,10 +357,10 @@ This section includes the Examiner Group Record Forms used to collect FG-COMPASS
 
 | Image | Description |
 |-------|-------------|
-| ![](static/images/loc-skip/sk1.png) | **Level 1**<br>The arm action is inconsistent, with no defined pattern. A double hop or step affects the rhythm. |
-| ![](static/images/loc-skip/sk2.png) | **Level 2**<br>The arm motion may improve, but it is still inconsistent and often motionless. The action of the feet is well coordinated and not affected by a double hop or step. |
-| ![](static/images/loc-skip/sk3.png) | **Level 3**<br>Arms move rhythmically in opposition to the legs, but the hop has an exaggerated vertical lift. |
-| ![](static/images/loc-skip/sk4.png) | **Level 4**<br>The arms move rhythmically in opposition to the legs, and the vertical lift on the hop is low. |
+| ![](static/images/loc-skip/sk1.png){width=100%} | **Level 1**<br>The arm action is inconsistent, with no defined pattern. A double hop or step affects the rhythm. |
+| ![](static/images/loc-skip/sk2.png){width=100%} | **Level 2**<br>The arm motion may improve, but it is still inconsistent and often motionless. The action of the feet is well coordinated and not affected by a double hop or step. |
+| ![](static/images/loc-skip/sk3.png){width=100%} | **Level 3**<br>Arms move rhythmically in opposition to the legs, but the hop has an exaggerated vertical lift. |
+| ![](static/images/loc-skip/sk4.png){width=100%} | **Level 4**<br>The arms move rhythmically in opposition to the legs, and the vertical lift on the hop is low. |
 
 ## Vertical Jump
 
@@ -396,10 +396,10 @@ This section includes the Examiner Group Record Forms used to collect FG-COMPASS
 
 | Image | Description |
 |-------|-------------|
-| ![](static/images/loc-vj/vj1.png) | **Level 1**<br>The arms don't move to the rear before taking off; the child takes off and/or lands with one foot. |
-| ![](static/images/loc-vj/vj2.png) | **Level 2**<br>Arms don't move to the rear before takeoff; takeoff and landing occur with both feet. |
-| ![](static/images/loc-vj/vj3.png) | **Level 3**<br>Arms move to the rear before taking off, but only the reaching arm reaches up. |
-| ![](static/images/loc-vj/vj4.png) | **Level 4**<br>Arms move to the rear before taking off; both arms reach up, with the non-reaching arm moving down at the peak of the flight. |
+| ![](static/images/loc-vj/vj1.png){width=100%} | **Level 1**<br>The arms don't move to the rear before taking off; the child takes off and/or lands with one foot. |
+| ![](static/images/loc-vj/vj2.png){width=100%} | **Level 2**<br>Arms don't move to the rear before takeoff; takeoff and landing occur with both feet. |
+| ![](static/images/loc-vj/vj3.png){width=100%} | **Level 3**<br>Arms move to the rear before taking off, but only the reaching arm reaches up. |
+| ![](static/images/loc-vj/vj4.png){width=100%} | **Level 4**<br>Arms move to the rear before taking off; both arms reach up, with the non-reaching arm moving down at the peak of the flight. |
 
 ## Gallop
 
@@ -434,7 +434,7 @@ Give the performer 4 trials (1st trial is for practice only).
 
 | Image | Description |
 |-------|-------------|
-| ![](static/images/loc-gallop/ga1.png) | **Level 1**<br>The action is not smooth and seems choppy/stiff. It is often done at a fast tempo, and the trailing foot (the foot that follows) lands in front of the leading foot. |
-| ![](static/images/loc-gallop/ga2.png) | **Level 2**<br>Still not a smooth action, but while the trailing foot may cross the leading foot during airborne action, it does not land in front of the leading foot. |
-| ![](static/images/loc-gallop/ga3.png) | **Level 3**<br>The action is smooth, rhythmical, and done at a moderate tempo, but the arm action lacks a defined pattern. |
-| ![](static/images/loc-gallop/ga4.png) | **Level 4**<br>The action is smooth, rhythmical, and done at a moderate speed; the arms (elbows) are lifted to waist Level at takeoff and moved down at landing. |
+| ![](static/images/loc-gallop/ga1.png){width=100%} | **Level 1**<br>The action is not smooth and seems choppy/stiff. It is often done at a fast tempo, and the trailing foot (the foot that follows) lands in front of the leading foot. |
+| ![](static/images/loc-gallop/ga2.png){width=100%} | **Level 2**<br>Still not a smooth action, but while the trailing foot may cross the leading foot during airborne action, it does not land in front of the leading foot. |
+| ![](static/images/loc-gallop/ga3.png){width=100%} | **Level 3**<br>The action is smooth, rhythmical, and done at a moderate tempo, but the arm action lacks a defined pattern. |
+| ![](static/images/loc-gallop/ga4.png){width=100%} | **Level 4**<br>The action is smooth, rhythmical, and done at a moderate speed; the arms (elbows) are lifted to waist Level at takeoff and moved down at landing. |

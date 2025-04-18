@@ -1,0 +1,11 @@
+/*-- scss:defaults --*/
+
+$body-bg: #1f1f1f;
+$body-color: #eaeaea;
+
+/*-- scss:rules --*/
+
+body {
+  background-color: $body-bg;
+  color: $body-color;
+}

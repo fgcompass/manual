@@ -3,6 +3,7 @@ project:
   output-dir: docs
 
 book:
+  title: "FG-COMPASS Manual"
   cover-image: cover.png
   page-footer: 
     left: "Copyright 2025 @ FG-COMPASS"
@@ -10,7 +11,8 @@ book:
     right: 
       - icon: person
         href: https://drfurtado.github.io/compass-manual/
-  title: "FG-COMPASS Manual"
+  sharing: [linkedin]
+
   author: 
     - name: Furtado, Ovande Jr
       orcid: 0000-0003-3847-6314 
@@ -44,16 +46,18 @@ bibliography: references.bib
 csl: apa.csl
 
 format:
-    html:
-      theme: cosmo
-    pdf:
-      documentclass: scrreprt
-      number-depth: 2
-      header-includes:
-        - "\\usepackage{multirow}"
-        - "\\usepackage{pdfpages}"
-      titlepage: true
-      titlepage-image: cover.png
+  html:
+    theme:
+      light: cosmo
+      dark: [cosmo, css/dark-theme.scss]
+  pdf:
+    documentclass: scrreprt
+    number-depth: 2
+    header-includes:
+      - "\\usepackage{multirow}"
+      - "\\usepackage{pdfpages}"
+    titlepage: true
+    titlepage-image: cover.png
 
 editor: source
 

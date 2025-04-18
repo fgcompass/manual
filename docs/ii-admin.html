@@ -38,10 +38,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-6bb072e51ab976e338d8fd19b221fbe5.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-772f16f1092111b8ed76131bef37b30d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-6bb072e51ab976e338d8fd19b221fbe5.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-a324fd9b8cea2c7fb1e02e2cce9df3ca.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-6cb9755ab580196d99dbacb2dcaa9362.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-a324fd9b8cea2c7fb1e02e2cce9df3ca.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -98,8 +100,10 @@ ul.task-list li input[type="checkbox"] {
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">FG-COMPASS Manual</a> 
-        <div class="sidebar-tools-main">
+        <div class="sidebar-tools-main tools-wide">
     <a href="./FG-COMPASS-Manual.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
+    <a href="https://www.linkedin.com/sharing/share-offsite/?url=|url|" title="LinkedIn" class="quarto-navigation-tool px-1" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
     </div>
       </div>
@@ -265,6 +269,136 @@ ul.task-list li input[type="checkbox"] {
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
+<script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    toggleBodyColorPrimary();
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        disableStylesheet(primaryStylesheets)
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const darkModeDefault = false;
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -378,19 +512,19 @@ Figure&nbsp;6.1: Scale for Overhand Throw
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="static/images/man-ot/ot1.png" class="img-fluid"></td>
+<td><img src="static/images/man-ot/ot1.png" class="img-fluid" style="width:100.0%"></td>
 <td><strong>Level 1</strong><br>The trunk faces the target, and there is no step forward. Jumping up and down is not considered a step forward.</td>
 </tr>
 <tr class="even">
-<td><img src="static/images/man-ot/ot2.png" class="img-fluid"></td>
+<td><img src="static/images/man-ot/ot2.png" class="img-fluid" style="width:100.0%"></td>
 <td><strong>Level 2</strong><br>Minimal or no trunk rotation is observed during the preparatory phase. However, a forward step is taken, using either foot.</td>
 </tr>
 <tr class="odd">
-<td><img src="static/images/man-ot/ot3.png" class="img-fluid"></td>
+<td><img src="static/images/man-ot/ot3.png" class="img-fluid" style="width:100.0%"></td>
 <td><strong>Level 3</strong><br>The movement involves a trunk rotation to one side and a slight step forward with the opposite leg.</td>
 </tr>
 <tr class="even">
-<td><img src="static/images/man-ot/ot4.png" class="img-fluid"></td>
+<td><img src="static/images/man-ot/ot4.png" class="img-fluid" style="width:100.0%"></td>
 <td><strong>Level 4</strong><br>The trunk rotates to the side with a long contralateral step forward (at least half the performer’s height).</td>
 </tr>
 </tbody>
@@ -460,19 +594,19 @@ Figure&nbsp;6.2: Scale for Kick
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="static/images/man-kick/ki1.png" class="img-fluid"></td>
+<td><img src="static/images/man-kick/ki1.png" class="img-fluid" style="width:100.0%"></td>
 <td><strong>Level 1</strong><br>The child stands behind the ball and kicks it without stepping forward.</td>
 </tr>
 <tr class="even">
-<td><img src="static/images/man-kick/ki2.png" class="img-fluid"></td>
+<td><img src="static/images/man-kick/ki2.png" class="img-fluid" style="width:100.0%"></td>
 <td><strong>Level 2</strong><br>At least one step is taken before kicking the ball without a long stride or leap. It often appears as though the child runs directly through the ball.</td>
 </tr>
 <tr class="odd">
-<td><img src="static/images/man-kick/ki3.png" class="img-fluid"></td>
+<td><img src="static/images/man-kick/ki3.png" class="img-fluid" style="width:100.0%"></td>
 <td><strong>Level 3</strong><br>Before kicking, there are a few steps toward the ball with a lengthened stride or jump. However, there is no follow-through after the kick.</td>
 </tr>
 <tr class="even">
-<td><img src="static/images/man-kick/ki4.png" class="img-fluid"></td>
+<td><img src="static/images/man-kick/ki4.png" class="img-fluid" style="width:100.0%"></td>
 <td><strong>Level 4</strong><br>There is a long stride or leap before contacting the ball. After contact, the placement foot continues moving forward.</td>
 </tr>
 </tbody>
@@ -545,19 +679,19 @@ Figure&nbsp;6.3: Scale for Dribble
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: center;"><img src="static/images/man-dribble/dr1.png" class="img-fluid"></td>
+<td style="text-align: center;"><img src="static/images/man-dribble/dr1.png" class="img-fluid" style="width:100.0%"></td>
 <td><strong>Level 1</strong><br>The child struggles to control the ball as it bounces erratically and loses control at least once.</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;"><img src="static/images/man-dribble/dr2.png" class="img-fluid"></td>
+<td style="text-align: center;"><img src="static/images/man-dribble/dr2.png" class="img-fluid" style="width:100.0%"></td>
 <td><strong>Level 2</strong><br>Despite a lack of control, the child bounces the ball continuously for 15 seconds.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;"><img src="static/images/man-dribble/dr3.png" class="img-fluid"></td>
+<td style="text-align: center;"><img src="static/images/man-dribble/dr3.png" class="img-fluid" style="width:100.0%"></td>
 <td><strong>Level 3</strong><br>Vision is used to maintain ball control. Bounces occur in front of or to the outside of the child’s preferred foot, and the child has more control over the ball.</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;"><img src="static/images/man-dribble/dr4.png" class="img-fluid"></td>
+<td style="text-align: center;"><img src="static/images/man-dribble/dr4.png" class="img-fluid" style="width:100.0%"></td>
 <td><strong>Level 4</strong><br>Control is clear, and the child does not rely on vision to maintain ball control.</td>
 </tr>
 </tbody>
@@ -628,19 +762,19 @@ Figure&nbsp;6.4: Scale for Catch
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="static/images/man-catch/ca1.png" class="img-fluid"></td>
+<td><img src="static/images/man-catch/ca1.png" class="img-fluid" style="width:100.0%"></td>
 <td><strong>Level 1</strong><br>The child uses a scooping action to secure the ball against the chest.</td>
 </tr>
 <tr class="even">
-<td><img src="static/images/man-catch/ca2.png" class="img-fluid"></td>
+<td><img src="static/images/man-catch/ca2.png" class="img-fluid" style="width:100.0%"></td>
 <td><strong>Level 2</strong><br>Following a successful catch, the ball is not secured against the chest but touches a body part other than the hands.</td>
 </tr>
 <tr class="odd">
-<td><img src="static/images/man-catch/ca3.png" class="img-fluid"></td>
+<td><img src="static/images/man-catch/ca3.png" class="img-fluid" style="width:100.0%"></td>
 <td><strong>Level 3</strong><br>The action lacks coordination, with the ball making contact only with the hands. Players often extend their arms and/or turn their faces to the side.</td>
 </tr>
 <tr class="even">
-<td><img src="static/images/man-catch/ca4.png" class="img-fluid"></td>
+<td><img src="static/images/man-catch/ca4.png" class="img-fluid" style="width:100.0%"></td>
 <td><strong>Level 4</strong><br>Action is well-timed with the simultaneous motion of hands.</td>
 </tr>
 </tbody>
@@ -713,19 +847,19 @@ Figure&nbsp;6.5: Scale for Striking
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="static/images/man-strike/st1.png" class="img-fluid"></td>
+<td><img src="static/images/man-strike/st1.png" class="img-fluid" style="width:100.0%"></td>
 <td><strong>Level 1</strong><br>The arm action is from back to front and resembles a vertical chopping motion.</td>
 </tr>
 <tr class="even">
-<td><img src="static/images/man-strike/st2.png" class="img-fluid"></td>
+<td><img src="static/images/man-strike/st2.png" class="img-fluid" style="width:100.0%"></td>
 <td><strong>Level 2</strong><br>The motion occurs on the horizontal plane, but the action is limited in its amplitude. Often, the bat is held in front of the body.</td>
 </tr>
 <tr class="odd">
-<td><img src="static/images/man-strike/st3.png" class="img-fluid"></td>
+<td><img src="static/images/man-strike/st3.png" class="img-fluid" style="width:100.0%"></td>
 <td><strong>Level 3</strong><br>The strike does occur in a long (full arc) horizontal plan, but there is no body weight transfer.</td>
 </tr>
 <tr class="even">
-<td><img src="static/images/man-strike/st4.png" class="img-fluid"></td>
+<td><img src="static/images/man-strike/st4.png" class="img-fluid" style="width:100.0%"></td>
 <td><strong>Level 4</strong><br>Same as Level 3, but now there is a transfer of body weight in the direction of the strike, which occurs from one to the other leg.</td>
 </tr>
 </tbody>
@@ -798,19 +932,19 @@ Figure&nbsp;7.1: Scale for Hop
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="static/images/loc-hop/ho1.png" class="img-fluid"></td>
+<td><img src="static/images/loc-hop/ho1.png" class="img-fluid" style="width:100.0%"></td>
 <td><strong>Level 1</strong><br>The suspended leg is held in front of the body.</td>
 </tr>
 <tr class="even">
-<td><img src="static/images/loc-hop/ho2.png" class="img-fluid"></td>
+<td><img src="static/images/loc-hop/ho2.png" class="img-fluid" style="width:100.0%"></td>
 <td><strong>Level 2</strong><br>The knee is flexed with the foot of the hanging leg held near the buttocks.</td>
 </tr>
 <tr class="odd">
-<td><img src="static/images/loc-hop/ho3.png" class="img-fluid"></td>
+<td><img src="static/images/loc-hop/ho3.png" class="img-fluid" style="width:100.0%"></td>
 <td><strong>Level 3</strong><br>The hanging leg is held back with the thigh vertically.</td>
 </tr>
 <tr class="even">
-<td><img src="static/images/loc-hop/ho4.png" class="img-fluid"></td>
+<td><img src="static/images/loc-hop/ho4.png" class="img-fluid" style="width:100.0%"></td>
 <td><strong>Level 4</strong><br>Similar to Level 3, the foot of the hanging leg crosses the line of the support leg like a pendulum.</td>
 </tr>
 </tbody>
@@ -880,19 +1014,19 @@ Figure&nbsp;7.2: Scale for Horizontal Jump
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="static/images/loc-hj/hj1.png" class="img-fluid"></td>
+<td><img src="static/images/loc-hj/hj1.png" class="img-fluid" style="width:100.0%"></td>
 <td><strong>Level 1</strong><br>The arm action is inconsistent with no defined pattern, sometimes even motionless. The takeoff and/or landing is executed on one foot.</td>
 </tr>
 <tr class="even">
-<td><img src="static/images/loc-hj/hj2.png" class="img-fluid"></td>
+<td><img src="static/images/loc-hj/hj2.png" class="img-fluid" style="width:100.0%"></td>
 <td><strong>Level 2</strong><br>The arm action may still be inconsistent, but the takeoff/landing is executed on both feet.</td>
 </tr>
 <tr class="odd">
-<td><img src="static/images/loc-hj/hj3.png" class="img-fluid"></td>
+<td><img src="static/images/loc-hj/hj3.png" class="img-fluid" style="width:100.0%"></td>
 <td><strong>Level 3</strong><br>The arms move forward and upward during takeoff and then downward at landing. But the hands do not exceed the height of the head at liftoff.</td>
 </tr>
 <tr class="even">
-<td><img src="static/images/loc-hj/hj4.png" class="img-fluid"></td>
+<td><img src="static/images/loc-hj/hj4.png" class="img-fluid" style="width:100.0%"></td>
 <td><strong>Level 4</strong><br>A pattern similar to Level 3, but the hands are high above the head during the liftoff.</td>
 </tr>
 </tbody>
@@ -961,19 +1095,19 @@ Figure&nbsp;7.3: Scale for Skip
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="static/images/loc-skip/sk1.png" class="img-fluid"></td>
+<td><img src="static/images/loc-skip/sk1.png" class="img-fluid" style="width:100.0%"></td>
 <td><strong>Level 1</strong><br>The arm action is inconsistent, with no defined pattern. A double hop or step affects the rhythm.</td>
 </tr>
 <tr class="even">
-<td><img src="static/images/loc-skip/sk2.png" class="img-fluid"></td>
+<td><img src="static/images/loc-skip/sk2.png" class="img-fluid" style="width:100.0%"></td>
 <td><strong>Level 2</strong><br>The arm motion may improve, but it is still inconsistent and often motionless. The action of the feet is well coordinated and not affected by a double hop or step.</td>
 </tr>
 <tr class="odd">
-<td><img src="static/images/loc-skip/sk3.png" class="img-fluid"></td>
+<td><img src="static/images/loc-skip/sk3.png" class="img-fluid" style="width:100.0%"></td>
 <td><strong>Level 3</strong><br>Arms move rhythmically in opposition to the legs, but the hop has an exaggerated vertical lift.</td>
 </tr>
 <tr class="even">
-<td><img src="static/images/loc-skip/sk4.png" class="img-fluid"></td>
+<td><img src="static/images/loc-skip/sk4.png" class="img-fluid" style="width:100.0%"></td>
 <td><strong>Level 4</strong><br>The arms move rhythmically in opposition to the legs, and the vertical lift on the hop is low.</td>
 </tr>
 </tbody>
@@ -1040,19 +1174,19 @@ Figure&nbsp;7.4: Scale for Vertical Jump
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="static/images/loc-vj/vj1.png" class="img-fluid"></td>
+<td><img src="static/images/loc-vj/vj1.png" class="img-fluid" style="width:100.0%"></td>
 <td><strong>Level 1</strong><br>The arms don’t move to the rear before taking off; the child takes off and/or lands with one foot.</td>
 </tr>
 <tr class="even">
-<td><img src="static/images/loc-vj/vj2.png" class="img-fluid"></td>
+<td><img src="static/images/loc-vj/vj2.png" class="img-fluid" style="width:100.0%"></td>
 <td><strong>Level 2</strong><br>Arms don’t move to the rear before takeoff; takeoff and landing occur with both feet.</td>
 </tr>
 <tr class="odd">
-<td><img src="static/images/loc-vj/vj3.png" class="img-fluid"></td>
+<td><img src="static/images/loc-vj/vj3.png" class="img-fluid" style="width:100.0%"></td>
 <td><strong>Level 3</strong><br>Arms move to the rear before taking off, but only the reaching arm reaches up.</td>
 </tr>
 <tr class="even">
-<td><img src="static/images/loc-vj/vj4.png" class="img-fluid"></td>
+<td><img src="static/images/loc-vj/vj4.png" class="img-fluid" style="width:100.0%"></td>
 <td><strong>Level 4</strong><br>Arms move to the rear before taking off; both arms reach up, with the non-reaching arm moving down at the peak of the flight.</td>
 </tr>
 </tbody>
@@ -1118,19 +1252,19 @@ Figure&nbsp;7.5: Scale for Gallop
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="static/images/loc-gallop/ga1.png" class="img-fluid"></td>
+<td><img src="static/images/loc-gallop/ga1.png" class="img-fluid" style="width:100.0%"></td>
 <td><strong>Level 1</strong><br>The action is not smooth and seems choppy/stiff. It is often done at a fast tempo, and the trailing foot (the foot that follows) lands in front of the leading foot.</td>
 </tr>
 <tr class="even">
-<td><img src="static/images/loc-gallop/ga2.png" class="img-fluid"></td>
+<td><img src="static/images/loc-gallop/ga2.png" class="img-fluid" style="width:100.0%"></td>
 <td><strong>Level 2</strong><br>Still not a smooth action, but while the trailing foot may cross the leading foot during airborne action, it does not land in front of the leading foot.</td>
 </tr>
 <tr class="odd">
-<td><img src="static/images/loc-gallop/ga3.png" class="img-fluid"></td>
+<td><img src="static/images/loc-gallop/ga3.png" class="img-fluid" style="width:100.0%"></td>
 <td><strong>Level 3</strong><br>The action is smooth, rhythmical, and done at a moderate tempo, but the arm action lacks a defined pattern.</td>
 </tr>
 <tr class="even">
-<td><img src="static/images/loc-gallop/ga4.png" class="img-fluid"></td>
+<td><img src="static/images/loc-gallop/ga4.png" class="img-fluid" style="width:100.0%"></td>
 <td><strong>Level 4</strong><br>The action is smooth, rhythmical, and done at a moderate speed; the arms (elbows) are lifted to waist Level at takeoff and moved down at landing.</td>
 </tr>
 </tbody>
@@ -1144,6 +1278,45 @@ Figure&nbsp;7.5: Scale for Gallop
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(darkModeDefault) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    }
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {

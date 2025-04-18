@@ -3,6 +3,9 @@ format:
   pdf:
     geometry: landscape, margin=0.5in, includehead, includefoot, footskip=60pt, headsep=4pt
     header-includes: |
+      \usepackage{fancyhdr}
+      \usepackage{multirow}
+      \usepackage{enumitem}
       \pagestyle{fancy}
       \fancyhf{}
       \fancyhead[C]{
