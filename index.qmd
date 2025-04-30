@@ -1,7 +1,27 @@
+---
+title: "FG-COMPASS Manual"
+description: | 
+  A comprehensive, user-friendly, evidence-based method for assessing fundamental movement skills in children aged 5 to 10 years.
+date: 04/01/2025
+author:
+  - name: Furtado, Ovande Jr
+    url: https://drfurtado.github.io/compass-manual/
+    affiliation: California State University, Northridge
+    affiliation-url: https://www.csun.edu/health-human-development/kinesiology
+  - name: Jere Gallagher
+    affiliation: University of Pittsburgh
+    affiliation-url: https://www.education.pitt.edu/
+citation: true
+bibliography: references.bib
+csl: apa.csl
+reference-location: document
+citation-location: document
+appendix-cite-as: true
+---
+
 # Preface {.unnumbered}
 
-Fundamental Movement Skills (FMS) lie at the heart of children’s overall development, serving as the building blocks for a lifetime of active and healthy living. The Furtado-Gallagher Children Observational Movement Pattern Assessment System (FG-COMPASS) was created to provide a user-friendly, evidence-based method for assessing these skills in children aged 5 to 10 years. Building upon well-established theories and previous research in motor development, this manual offers educators, researchers, coaches, and healthcare professionals a clear framework for understanding, administering, and interpreting the FG-COMPASS.
-
+Fundamental Movement Skills (FMS) lie at the heart of children’s overall development, serving as the building blocks for a lifetime of active and healthy living. The Furtado-Gallagher Children Observational Movement Pattern Assessment System (FG-COMPASS) was created to provide a user-friendly, evidence-based method for assessing these skills in children aged 5 to 10 years. Building upon well-established theories and previous research in motor development, this manual offers educators, researchers, coaches, and healthcare professionals a clear framework for understanding, administering, and interpreting the FG-COMPASS [@furtado2018].
 
 {{< bi filetype-pdf alarm size=1.6em color=#d9796c >}} [Download the Manual](FG-COMPASS-Manual.pdf)
 
@@ -9,7 +29,7 @@ Fundamental Movement Skills (FMS) lie at the heart of children’s overall devel
 Over the past decade, considerable effort has been devoted to refining the FG-COMPASS to ensure that it is practical, psychometrically sound, and accessible to both novice and expert raters. Early work focused on establishing expert-rater agreement and verifying the instrument’s inter- and intra-rater reliability, ensuring that FG-COMPASS scores accurately represent a child’s skill proficiency. Subsequent investigations addressed the addition of new locomotor tasks—such as the vertical jump and gallop—and confirmed that these expanded scales maintained the high reliability and consistency standards set by the original assessment. Through these enhancements, the FG-COMPASS offers a comprehensive view of key FMS that are commonly taught and developed across preschool and elementary-age programs.
 
 ## Bridging Theory and Practice
-While multiple FMS assessments exist, many either demand extensive training and video review or else focus narrowly on specific tasks. By drawing on both the composite decision-tree approach and well-established developmental sequences, the FG-COMPASS strikes a balance: It narrows down each skill to a few critical performance criteria yet gives raters the information needed to classify children’s proficiency levels accurately and consistently. This streamlined design makes it more feasible for use in real-world settings, such as physical education classes, sports clinics, and recreational programs—environments in `which time and resources are often limited.
+While multiple FMS assessments exist, many either demand extensive training and video review or else focus narrowly on specific tasks. By drawing on both the composite decision-tree approach and well-established developmental sequences, the FG-COMPASS strikes a balance: It narrows down each skill to a few critical performance criteria yet gives raters the information needed to classify children’s proficiency levels accurately and consistently. This streamlined design makes it more feasible for use in real-world settings, such as physical education classes, sports clinics, and recreational programs—environments in which time and resources are often limited.
 
 ## Supporting All Learners
 One of the central aims of this tool is to facilitate early detection of children who may require additional support in mastering fundamental movement skills. Research consistently links the quality of FMS to positive outcomes in physical health, cognitive development, and social-emotional well-being. By equipping practitioners with the means to detect deficits early on—and to monitor progress over time—the FG-COMPASS fosters an inclusive environment where instruction can be tailored to each child’s unique developmental trajectory.
@@ -46,3 +66,23 @@ In presenting this manual, my hope is that it will serve as both a resource and 
 
 Ovande Furtado, Jr., Ph.D.
 April 2025
+
+::: {#citation-appendix}
+## Citation
+
+### BibTeX citation:
+
+```bibtex
+@online{furtado2025,
+  author = {Furtado, Ovande Jr and Gallagher, Jere},
+  title = {FG-COMPASS Manual},
+  date = {2025-04-01},
+  url = {https://drfurtado.github.io/compass-manual/},
+  langid = {en}
+}
+```
+
+### For attribution, please cite this work as:
+
+Furtado, O. Jr., & Gallagher, J. (2025, April 1). *FG-COMPASS Manual*. https://drfurtado.github.io/compass-manual/
+:::

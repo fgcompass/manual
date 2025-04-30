@@ -41,7 +41,8 @@ book:
     - references.qmd
   appendices:
     - appendix-a.qmd
-
+citation: true
+appendices: true
 bibliography: references.bib
 csl: apa.csl
 
@@ -60,4 +61,3 @@ format:
     titlepage-image: cover.png
 
 editor: source
-

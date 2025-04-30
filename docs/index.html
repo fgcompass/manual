@@ -2,13 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.20">
+<meta name="generator" content="quarto-1.7.29">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Furtado, Ovande Jr">
-<meta name="author" content="Jere Gallagher">
 <meta name="dcterms.date" content="2025-04-01">
+<meta name="description" content="A comprehensive, user-friendly, evidence-based method for assessing fundamental movement skills in children aged 5 to 10 years.">
 
 <title>FG-COMPASS Manual</title>
 <style>
@@ -23,7 +22,62 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -40,12 +94,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-772f16f1092111b8ed76131bef37b30d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-6bb072e51ab976e338d8fd19b221fbe5.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-748b535e376f14d4692bf2b2e5fd6380.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-dark-6cb9755ab580196d99dbacb2dcaa9362.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-a324fd9b8cea2c7fb1e02e2cce9df3ca.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-6bb5ad484749947dbf006bb4d74c4af5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-54b6ab6ee2dd246d86cc087b7d524d29.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-6bb5ad484749947dbf006bb4d74c4af5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/bootstrap-icons-1.9.1/all.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
@@ -78,111 +134,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-sidebar floating quarto-light">
-
-<div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Preface</a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
-    </div>
-  </nav>
-</header>
-<!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
-<!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header">
-    <div class="sidebar-title mb-0 py-0">
-      <a href="./">FG-COMPASS Manual</a> 
-        <div class="sidebar-tools-main tools-wide">
-    <a href="./FG-COMPASS-Manual.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
-    <a href="https://www.linkedin.com/sharing/share-offsite/?url=|url|" title="LinkedIn" class="quarto-navigation-tool px-1" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
-</div>
-    </div>
-      </div>
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Preface</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./i-intro.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./ii-admin.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Procedures</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./references.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">References</span></a>
-  </div>
-</li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
- <span class="menu-text">Appendices</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./appendix-a.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Appendix A: Protocols</span></span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
-   
-  <ul>
-  <li><a href="#preface" id="toc-preface" class="nav-link active" data-scroll-target="#preface">Preface</a>
-  <ul class="collapse">
-  <li><a href="#a-journey-of-research-and-practice" id="toc-a-journey-of-research-and-practice" class="nav-link" data-scroll-target="#a-journey-of-research-and-practice">A Journey of Research and Practice</a></li>
-  <li><a href="#bridging-theory-and-practice" id="toc-bridging-theory-and-practice" class="nav-link" data-scroll-target="#bridging-theory-and-practice">Bridging Theory and Practice</a></li>
-  <li><a href="#supporting-all-learners" id="toc-supporting-all-learners" class="nav-link" data-scroll-target="#supporting-all-learners">Supporting All Learners</a></li>
-  <li><a href="#how-to-use-this-manual" id="toc-how-to-use-this-manual" class="nav-link" data-scroll-target="#how-to-use-this-manual">How to Use This Manual</a></li>
-  <li><a href="#acknowledgments" id="toc-acknowledgments" class="nav-link" data-scroll-target="#acknowledgments">Acknowledgments</a></li>
-  <li><a href="#concluding-remarks" id="toc-concluding-remarks" class="nav-link" data-scroll-target="#concluding-remarks">Concluding Remarks</a></li>
-  </ul></li>
-  </ul>
-</nav>
-    </div>
-<!-- main -->
-<main class="content" id="quarto-document-content">
-<script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -200,14 +152,26 @@ ul.task-list li input[type="checkbox"] {
         toggleBodyColorMode(bsSheetEl);
       }
     }
-    toggleBodyColorPrimary();
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
     const toggleColorMode = (alternate) => {
       // Switch the stylesheets
       const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
       const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
       manageTransitions('#quarto-margin-sidebar .nav-link', false);
       if (alternate) {
-        disableStylesheet(primaryStylesheets)
+        // note: dark is layered on light, we don't disable primary!
         enableStylesheet(alternateStylesheets);
         for (const sheetNode of alternateStylesheets) {
           if (sheetNode.id === "quarto-bootstrap") {
@@ -221,17 +185,7 @@ ul.task-list li input[type="checkbox"] {
       }
       manageTransitions('#quarto-margin-sidebar .nav-link', true);
       // Switch the toggles
-      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
-      for (let i=0; i < toggles.length; i++) {
-        const toggle = toggles[i];
-        if (toggle) {
-          if (alternate) {
-            toggle.classList.add("alternate");
-          } else {
-            toggle.classList.remove("alternate");
-          }
-        }
-      }
+      setColorSchemeToggle(alternate)
       // Hack to workaround the fact that safari doesn't
       // properly recolor the scrollbar when toggling (#1455)
       if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
@@ -295,7 +249,37 @@ ul.task-list li input[type="checkbox"] {
         return localAlternateSentinel;
       }
     }
-    const darkModeDefault = false;
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
     let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
     // Dark / light mode switch
     window.quartoToggleColorScheme = () => {
@@ -313,11 +297,125 @@ ul.task-list li input[type="checkbox"] {
     }
   </script>
 
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">FG-COMPASS Manual</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">FG-COMPASS Manual</a> 
+        <div class="sidebar-tools-main tools-wide">
+    <a href="./FG-COMPASS-Manual.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
+    <a href="https://www.linkedin.com/sharing/share-offsite/?url=|url|" title="LinkedIn" class="quarto-navigation-tool px-1" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">FG-COMPASS Manual</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./i-intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ii-admin.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Procedures</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Appendices</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./appendix-a.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Appendix A: Protocols</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#preface" id="toc-preface" class="nav-link active" data-scroll-target="#preface">Preface</a>
+  <ul class="collapse">
+  <li><a href="#a-journey-of-research-and-practice" id="toc-a-journey-of-research-and-practice" class="nav-link" data-scroll-target="#a-journey-of-research-and-practice"><span class="header-section-number">0.1</span> A Journey of Research and Practice</a></li>
+  <li><a href="#bridging-theory-and-practice" id="toc-bridging-theory-and-practice" class="nav-link" data-scroll-target="#bridging-theory-and-practice"><span class="header-section-number">0.2</span> Bridging Theory and Practice</a></li>
+  <li><a href="#supporting-all-learners" id="toc-supporting-all-learners" class="nav-link" data-scroll-target="#supporting-all-learners"><span class="header-section-number">0.3</span> Supporting All Learners</a></li>
+  <li><a href="#how-to-use-this-manual" id="toc-how-to-use-this-manual" class="nav-link" data-scroll-target="#how-to-use-this-manual"><span class="header-section-number">0.4</span> How to Use This Manual</a></li>
+  <li><a href="#acknowledgments" id="toc-acknowledgments" class="nav-link" data-scroll-target="#acknowledgments"><span class="header-section-number">0.5</span> Acknowledgments</a></li>
+  <li><a href="#concluding-remarks" id="toc-concluding-remarks" class="nav-link" data-scroll-target="#concluding-remarks"><span class="header-section-number">0.6</span> Concluding Remarks</a></li>
+  <li><a href="#citation" id="toc-citation" class="nav-link" data-scroll-target="#citation"><span class="header-section-number">0.7</span> Citation</a>
+  <ul class="collapse">
+  <li><a href="#bibtex-citation" id="toc-bibtex-citation" class="nav-link" data-scroll-target="#bibtex-citation"><span class="header-section-number">0.7.1</span> BibTeX citation:</a></li>
+  <li><a href="#for-attribution-please-cite-this-work-as" id="toc-for-attribution-please-cite-this-work-as" class="nav-link" data-scroll-target="#for-attribution-please-cite-this-work-as"><span class="header-section-number">0.7.2</span> For attribution, please cite this work as:</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">FG-COMPASS Manual</h1>
 </div>
 
+<div>
+  <div class="description">
+    <p>A comprehensive, user-friendly, evidence-based method for assessing fundamental movement skills in children aged 5 to 10 years.</p>
+  </div>
+</div>
 
 <div class="quarto-title-meta-author">
   <div class="quarto-title-meta-heading">Authors</div>
@@ -347,7 +445,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">April 1, 2025</p>
+      <p class="date">04/01/2025</p>
     </div>
   </div>
   
@@ -362,26 +460,26 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="preface" class="level1 unnumbered">
 <h1 class="unnumbered">Preface</h1><p><img src="cover.png" title="FG-COMPASS Manual" class="quarto-cover-image nolightbox img-fluid"></p>
-<p>Fundamental Movement Skills (FMS) lie at the heart of children’s overall development, serving as the building blocks for a lifetime of active and healthy living. The Furtado-Gallagher Children Observational Movement Pattern Assessment System (FG-COMPASS) was created to provide a user-friendly, evidence-based method for assessing these skills in children aged 5 to 10 years. Building upon well-established theories and previous research in motor development, this manual offers educators, researchers, coaches, and healthcare professionals a clear framework for understanding, administering, and interpreting the FG-COMPASS.</p>
+<p>Fundamental Movement Skills (FMS) lie at the heart of children’s overall development, serving as the building blocks for a lifetime of active and healthy living. The Furtado-Gallagher Children Observational Movement Pattern Assessment System (FG-COMPASS) was created to provide a user-friendly, evidence-based method for assessing these skills in children aged 5 to 10 years. Building upon well-established theories and previous research in motor development, this manual offers educators, researchers, coaches, and healthcare professionals a clear framework for understanding, administering, and interpreting the FG-COMPASS <span class="citation" data-cites="furtado2018">(<a href="references.html#ref-furtado2018" role="doc-biblioref">Furtado &amp; Gallagher, 2018</a>)</span>.</p>
 <p><i class="bi-filetype-pdf " style="font-size: 1.6em;color: #d9796c;" role="img" aria-hidden="true"></i> <a href="FG-COMPASS-Manual.pdf">Download the Manual</a></p>
-<section id="a-journey-of-research-and-practice" class="level2">
-<h2 class="anchored" data-anchor-id="a-journey-of-research-and-practice">A Journey of Research and Practice</h2>
+<section id="a-journey-of-research-and-practice" class="level2" data-number="0.1">
+<h2 data-number="0.1" class="anchored" data-anchor-id="a-journey-of-research-and-practice"><span class="header-section-number">0.1</span> A Journey of Research and Practice</h2>
 <p>Over the past decade, considerable effort has been devoted to refining the FG-COMPASS to ensure that it is practical, psychometrically sound, and accessible to both novice and expert raters. Early work focused on establishing expert-rater agreement and verifying the instrument’s inter- and intra-rater reliability, ensuring that FG-COMPASS scores accurately represent a child’s skill proficiency. Subsequent investigations addressed the addition of new locomotor tasks—such as the vertical jump and gallop—and confirmed that these expanded scales maintained the high reliability and consistency standards set by the original assessment. Through these enhancements, the FG-COMPASS offers a comprehensive view of key FMS that are commonly taught and developed across preschool and elementary-age programs.</p>
 </section>
-<section id="bridging-theory-and-practice" class="level2">
-<h2 class="anchored" data-anchor-id="bridging-theory-and-practice">Bridging Theory and Practice</h2>
-<p>While multiple FMS assessments exist, many either demand extensive training and video review or else focus narrowly on specific tasks. By drawing on both the composite decision-tree approach and well-established developmental sequences, the FG-COMPASS strikes a balance: It narrows down each skill to a few critical performance criteria yet gives raters the information needed to classify children’s proficiency levels accurately and consistently. This streamlined design makes it more feasible for use in real-world settings, such as physical education classes, sports clinics, and recreational programs—environments in `which time and resources are often limited.</p>
+<section id="bridging-theory-and-practice" class="level2" data-number="0.2">
+<h2 data-number="0.2" class="anchored" data-anchor-id="bridging-theory-and-practice"><span class="header-section-number">0.2</span> Bridging Theory and Practice</h2>
+<p>While multiple FMS assessments exist, many either demand extensive training and video review or else focus narrowly on specific tasks. By drawing on both the composite decision-tree approach and well-established developmental sequences, the FG-COMPASS strikes a balance: It narrows down each skill to a few critical performance criteria yet gives raters the information needed to classify children’s proficiency levels accurately and consistently. This streamlined design makes it more feasible for use in real-world settings, such as physical education classes, sports clinics, and recreational programs—environments in which time and resources are often limited.</p>
 </section>
-<section id="supporting-all-learners" class="level2">
-<h2 class="anchored" data-anchor-id="supporting-all-learners">Supporting All Learners</h2>
+<section id="supporting-all-learners" class="level2" data-number="0.3">
+<h2 data-number="0.3" class="anchored" data-anchor-id="supporting-all-learners"><span class="header-section-number">0.3</span> Supporting All Learners</h2>
 <p>One of the central aims of this tool is to facilitate early detection of children who may require additional support in mastering fundamental movement skills. Research consistently links the quality of FMS to positive outcomes in physical health, cognitive development, and social-emotional well-being. By equipping practitioners with the means to detect deficits early on—and to monitor progress over time—the FG-COMPASS fosters an inclusive environment where instruction can be tailored to each child’s unique developmental trajectory.</p>
 </section>
-<section id="how-to-use-this-manual" class="level2">
-<h2 class="anchored" data-anchor-id="how-to-use-this-manual">How to Use This Manual</h2>
+<section id="how-to-use-this-manual" class="level2" data-number="0.4">
+<h2 data-number="0.4" class="anchored" data-anchor-id="how-to-use-this-manual"><span class="header-section-number">0.4</span> How to Use This Manual</h2>
 <p>This manual is designed with clarity and practicality in mind. In the opening chapters, readers will find an overview of core concepts in FMS development, along with the theoretical underpinnings of the FG-COMPASS. Subsequent sections provide step-by-step administration procedures, including detailed rating scales, setup instructions, and scoring guidelines for each of the ten FMS evaluated. The appendices contain testing protocols and sample group record forms to ensure smooth execution, whether assessments are conducted live or via video review.</p>
 </section>
-<section id="acknowledgments" class="level2">
-<h2 class="anchored" data-anchor-id="acknowledgments">Acknowledgments</h2>
+<section id="acknowledgments" class="level2" data-number="0.5">
+<h2 data-number="0.5" class="anchored" data-anchor-id="acknowledgments"><span class="header-section-number">0.5</span> Acknowledgments</h2>
 <p>The creation and refinement of the FG-COMPASS would not have been possible without the dedication of numerous colleagues, research assistants, and educators who contributed their time and expertise. Their insightful feedback has helped shape an assessment tool that balances scientific rigor with everyday utility. Special thanks go to the children, parents, teachers, and administrators who allowed us to pilot-test the FG-COMPASS in diverse settings, providing invaluable data that guided ongoing improvements.</p>
 <p>In addition to the many individuals who contributed to the development of the FG-COMPASS, I wish to express my deepest admiration and gratitude to my mentor and graduate advisor, Dr.&nbsp;Jere D. Gallagher. Dr.&nbsp;Gallagher was a distinguished professor and associate dean at the University of Pittsburgh’s School of Education, renowned for her expertise in child development and motor learning. She dedicated over 25 years to directing the Kinder Kinetics Program, now known as “Pitt’s Kids: Honoring the Vision of Dr.&nbsp;Jere Gallagher,” nationally recognized for its innovative approach to promoting healthy movement among children aged 3 to 12. ￼ ￼</p>
 <p>Dr.&nbsp;Gallagher’s commitment to student advocacy and inclusive education left an indelible mark on all who had the privilege of working with her. Her mentorship was characterized by unwavering support, insightful guidance, and a genuine passion for fostering growth in others. She was instrumental in shaping my academic journey, encouraging a balance of scientific rigor and compassionate practice that continues to influence my work today.</p>
@@ -391,16 +489,40 @@ ul.task-list li input[type="checkbox"] {
 <p>Dr.&nbsp;Jere D. Gallagher, Oldemar Mazzardo, Fabio Fontana, Wagner de Campos, Priscila Cacola, Lino Perez, Mackinsey Woolever, Comfort Mokgothu, Hasan F. Mavi, Mariah Bolin, Takato Sacurai, Lawrence Ho, Thomas Cunningham, Alan Chapla.</p>
 <p>I also have many institutions to thank for their support, including the University of Pittsburgh, Eastern Illinois University, California State University - Northridge, the Western Paraná State University, and the Paraná Federal University. Their commitment to advancing research in motor development has been invaluable.</p>
 </section>
-<section id="concluding-remarks" class="level2">
-<h2 class="anchored" data-anchor-id="concluding-remarks">Concluding Remarks</h2>
+<section id="concluding-remarks" class="level2" data-number="0.6">
+<h2 data-number="0.6" class="anchored" data-anchor-id="concluding-remarks"><span class="header-section-number">0.6</span> Concluding Remarks</h2>
 <p>The FG-COMPASS is more than just an assessment tool; it is a commitment to understanding and nurturing the fundamental movement skills that are essential for children’s growth and development. By providing a clear, evidence-based framework for assessing these skills, we empower educators and practitioners to make informed decisions that can positively impact children’s lives.</p>
 <p>As we look to the future, I encourage all users of the FG-COMPASS to embrace its potential not only as a measurement tool but also as a means of fostering a deeper understanding of motor development. By engaging with the assessment process, practitioners can gain insights into each child’s unique strengths and challenges, allowing for tailored interventions that promote skill acquisition and overall well-being.</p>
 <p>The FG-COMPASS is designed to be adaptable, allowing for its application in various contexts, from physical education classes to clinical settings. It is my hope that this manual will serve as a valuable resource for practitioners seeking to enhance their understanding of motor development and improve their assessment practices.</p>
 <p>In presenting this manual, my hope is that it will serve as both a resource and a catalyst, helping practitioners not only assess motor skills more accurately but also better understand how to nurture each child’s potential. By investing in high-quality FMS assessment, we invest in the holistic growth of children, setting them on a path toward vibrant, active lives.</p>
 <p>Ovande Furtado, Jr., Ph.D. April 2025</p>
-
-
 </section>
+<div id="citation-appendix">
+<section id="citation" class="level2" data-number="0.7">
+<h2 data-number="0.7" class="anchored" data-anchor-id="citation"><span class="header-section-number">0.7</span> Citation</h2>
+<section id="bibtex-citation" class="level3" data-number="0.7.1">
+<h3 data-number="0.7.1" class="anchored" data-anchor-id="bibtex-citation"><span class="header-section-number">0.7.1</span> BibTeX citation:</h3>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="va">@online</span>{<span class="ot">furtado2025</span>,</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">author</span> = {Furtado, Ovande Jr and Gallagher, Jere},</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">title</span> = {FG-COMPASS Manual},</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">date</span> = {2025-04-01},</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">url</span> = {https://drfurtado.github.io/compass-manual/},</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="dt">langid</span> = {en}</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="for-attribution-please-cite-this-work-as" class="level3" data-number="0.7.2">
+<h3 data-number="0.7.2" class="anchored" data-anchor-id="for-attribution-please-cite-this-work-as"><span class="header-section-number">0.7.2</span> For attribution, please cite this work as:</h3>
+<p>Furtado, O. Jr., &amp; Gallagher, J. (2025, April 1). <em>FG-COMPASS Manual</em>. https://drfurtado.github.io/compass-manual/</p>
+</section>
+</section>
+</div>
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list" style="display: none">
+<div id="ref-furtado2018" class="csl-entry" role="listitem">
+Furtado, O. Jr., &amp; Gallagher, J. D. (2018). Expert-rater agreement and inter-/intrarater reliability for the Furtado<span></span>Gallagher Computerized Observational Movement Pattern Assessment System. <em>Perceptual and Motor Skills</em>, <em>125</em>(3), 423–437. <a href="https://doi.org/10.1177/0031512518769205">https://doi.org/10.1177/0031512518769205</a>
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
@@ -418,33 +540,7 @@ ul.task-list li input[type="checkbox"] {
       a.appendChild(i);
       window.document.body.appendChild(a);
     }
-    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
-      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
-      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
-      let newTheme = '';
-      if(darkModeDefault) {
-        newTheme = isAlternate ? baseTheme : alternateTheme;
-      } else {
-        newTheme = isAlternate ? alternateTheme : baseTheme;
-      }
-      const changeGiscusTheme = () => {
-        // From: https://github.com/giscus/giscus/issues/336
-        const sendMessage = (message) => {
-          const iframe = document.querySelector('iframe.giscus-frame');
-          if (!iframe) return;
-          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-        }
-        sendMessage({
-          setConfig: {
-            theme: newTheme
-          }
-        });
-      }
-      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
-      if (isGiscussLoaded) {
-        changeGiscusTheme();
-      }
-    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -847,7 +943,7 @@ ul.task-list li input[type="checkbox"] {
   </div>
   <div class="nav-page nav-page-next">
       <a href="./i-intro.html" class="pagination-link" aria-label="Introduction">
-        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introduction</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
