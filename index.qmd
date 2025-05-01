@@ -1,27 +1,8 @@
----
-title: "FG-COMPASS Manual"
-description: | 
-  A comprehensive, user-friendly, evidence-based method for assessing fundamental movement skills in children aged 5 to 10 years.
-date: 04/01/2025
-author:
-  - name: Furtado, Ovande Jr
-    url: https://drfurtado.github.io/compass-manual/
-    affiliation: California State University, Northridge
-    affiliation-url: https://www.csun.edu/health-human-development/kinesiology
-  - name: Jere Gallagher
-    affiliation: University of Pittsburgh
-    affiliation-url: https://www.education.pitt.edu/
-citation: true
-bibliography: references.bib
-csl: apa.csl
-reference-location: document
-citation-location: document
-appendix-cite-as: true
----
+
 
 # Preface {.unnumbered}
 
-Fundamental Movement Skills (FMS) lie at the heart of children’s overall development, serving as the building blocks for a lifetime of active and healthy living. The Furtado-Gallagher Children Observational Movement Pattern Assessment System (FG-COMPASS) was created to provide a user-friendly, evidence-based method for assessing these skills in children aged 5 to 10 years. Building upon well-established theories and previous research in motor development, this manual offers educators, researchers, coaches, and healthcare professionals a clear framework for understanding, administering, and interpreting the FG-COMPASS [@furtado2018].
+Fundamental Movement Skills (FMS) lie at the heart of children’s overall development, serving as the building blocks for a lifetime of active and healthy living. The [Furtado-Gallagher Children Observational Movement Pattern Assessment System (FG-COMPASS)](https://fgcompass.github.io/site/) was created to provide a user-friendly, evidence-based method for assessing these skills in children aged 5 to 10 years. Building upon well-established theories and previous research in motor development, this manual offers educators, researchers, coaches, and healthcare professionals a clear framework for understanding, administering, and interpreting the FG-COMPASS [@furtado2018].
 
 {{< bi filetype-pdf alarm size=1.6em color=#d9796c >}} [Download the Manual](FG-COMPASS-Manual.pdf)
 

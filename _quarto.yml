@@ -3,15 +3,17 @@ project:
   output-dir: docs
 
 book:
-  title: "FG-COMPASS Manual"
   cover-image: cover.png
+  site-url: https://drfurtado.github.io/compass-manual/
+  repo-url: https://fgcompass.github.io/site/
+  sidebar:
+    title: "FG-COMPASS Manual"
   page-footer: 
     left: "Copyright 2025 @ FG-COMPASS"
     background: light
     right: 
       - icon: person
         href: https://drfurtado.github.io/compass-manual/
-  sharing: [linkedin]
 
   author: 
     - name: Furtado, Ovande Jr
@@ -32,7 +34,7 @@ book:
         region: PA
         postal-code: 15260
   date: "04/01/2025"
-  downloads: [pdf] 
+  downloads: [pdf, epub] 
 
   chapters:
     - index.qmd
@@ -59,5 +61,10 @@ format:
       - "\\usepackage{pdfpages}"
     titlepage: true
     titlepage-image: cover.png
+  epub:
+    cover-image: cover.png
+    title: "FG-COMPASS Manual"
+    epub-cover-image: cover.png
+    number-sections: true
 
 editor: source
