@@ -6,3 +6,19 @@
 /.quarto/
 
 /.luarc.json
+
+# Node.js
+/node_modules/
+package-lock.json
+
+# macOS system files
+.DS_Store
+
+# Temporary files
+*.tmp
+*.log
+
+# Keep the docs directory for GitHub Pages
+# But exclude large binary files that can be regenerated
+# docs/*.pdf
+# docs/*.epub
