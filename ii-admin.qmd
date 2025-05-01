@@ -386,7 +386,8 @@ This section includes the Examiner Group Record Forms used to collect FG-COMPASS
 
 ### Notes for examiners
 
--Give the performer 4 trials (1st trial is for practice only). - Ask the child to show the hand he/she writes with. That will help determine the dominant hand.
+* Give the performer 4 trials (1st trial is for practice only).
+* Ask the child to show the hand he/she writes with. That will help determine the dominant hand.
 
 ### Scale
 
@@ -424,7 +425,7 @@ This section includes the Examiner Group Record Forms used to collect FG-COMPASS
 
 ### Notes for examiners
 
-Give the performer 4 trials (1st trial is for practice only).
+* Give the performer 4 trials (1st trial is for practice only).
 
 ### Scale
 
