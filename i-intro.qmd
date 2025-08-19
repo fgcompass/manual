@@ -88,9 +88,7 @@ Collectively, the findings of these studies indicate that the FG‑COMPASS can b
 
 # Inter-Rater Reliability
 
-Inter‑rater reliability for the FG‑COMPASS has been examined and re‑examined through multiple studies. In the initial work by @furtado2012, raters, who received standardized training, independently coded videotaped fundamental movement skills. Weighted kappa analyses revealed agreement values ranging from 0.51 to 0.85 (mean = 0.71), establishing an already “good” level of inter‑rater consistency for the original set of rating scales.
-
-Finally, @woolever2016 investigated live assessments (as opposed to video‑based ones) and found that inter‑rater reliability remained “good,” albeit somewhat lower than the strong values observed under controlled video conditions. Even so, their results supported the FG‑COMPASS as a practical tool for real‑world educational or research settings, where live evaluations are often needed.
+Inter‑rater reliability for the FG‑COMPASS has been examined and re‑examined through multiple studies. @woolever2016 investigated live assessments (as opposed to video‑based ones) and found that inter‑rater reliability was “good,” albeit somewhat lower than the strong values observed under controlled video conditions. Even so, their results supported the FG‑COMPASS as a practical tool for real‑world educational or research settings, where live evaluations are often needed.
 
 A subsequent refinement by @furtado2018 involved slight revisions to the locomotor domain. Once again, multiple raters underwent systematic training and then independently scored children’s recorded performances. Here, the combined locomotor and manipulative subtests yielded an intraclass correlation coefficient (ICC) approaching 0.89, indicating improved rater consensus following the scale modifications.
 
