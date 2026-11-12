@@ -74,7 +74,7 @@
     "href": "index.html#citation",
     "title": "Preface",
     "section": "Citation",
-    "text": "Citation\n\nBibTeX citation:\n@online{furtado2025,\n  author = {Furtado, Ovande Jr and Gallagher, Jere},\n  title = {FG-COMPASS Manual},\n  date = {2025-04-01},\n  url = {https://drfurtado.github.io/compass-manual/},\n  langid = {en}\n}\n\n\nFor attribution, please cite this work as:\nFurtado, O. Jr., & Gallagher, J. (2025, April 1). FG-COMPASS Manual. https://drfurtado.github.io/compass-manual/",
+    "text": "Citation\n\nBibTeX citation:\n@online{furtado2025,\n  author = {Furtado, Ovande Jr and Gallagher, Jere},\n  title = {FG-COMPASS Manual},\n  date = {2025-04-01},\n  url = {https://fgcompass.github.io/manual/},\n  langid = {en}\n}\n\n\nFor attribution, please cite this work as:\nFurtado, O. Jr., & Gallagher, J. (2025, April 1). FG-COMPASS Manual. https://fgcompass.github.io/manual/",
     "crumbs": [
       "Preface"
     ]

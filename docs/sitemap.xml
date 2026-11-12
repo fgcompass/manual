@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://drfurtado.github.io/compass-manual/index.html</loc>
+    <loc>https://fgcompass.github.io/manual/index.html</loc>
     <lastmod>2025-05-01T18:37:49.791Z</lastmod>
   </url>
   <url>
-    <loc>https://drfurtado.github.io/compass-manual/i-intro.html</loc>
+    <loc>https://fgcompass.github.io/manual/i-intro.html</loc>
     <lastmod>2025-08-19T17:49:53.008Z</lastmod>
   </url>
   <url>
-    <loc>https://drfurtado.github.io/compass-manual/ii-admin.html</loc>
+    <loc>https://fgcompass.github.io/manual/ii-admin.html</loc>
     <lastmod>2025-05-01T18:34:37.630Z</lastmod>
   </url>
   <url>
-    <loc>https://drfurtado.github.io/compass-manual/references.html</loc>
+    <loc>https://fgcompass.github.io/manual/references.html</loc>
     <lastmod>2024-10-28T20:47:27.729Z</lastmod>
   </url>
   <url>
-    <loc>https://drfurtado.github.io/compass-manual/appendix-a.html</loc>
+    <loc>https://fgcompass.github.io/manual/appendix-a.html</loc>
     <lastmod>2025-04-17T23:46:56.113Z</lastmod>
   </url>
   <url>
-    <loc>https://drfurtado.github.io/compass-manual/compass-manual.pdf</loc>
+    <loc>https://fgcompass.github.io/manual/compass-manual.pdf</loc>
     <lastmod>2025-08-19T17:50:35.615Z</lastmod>
   </url>
   <url>
-    <loc>https://drfurtado.github.io/compass-manual/compass-manual.epub</loc>
+    <loc>https://fgcompass.github.io/manual/compass-manual.epub</loc>
     <lastmod>2025-08-19T17:50:37.242Z</lastmod>
   </url>
 </urlset>

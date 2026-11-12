@@ -4,7 +4,7 @@ project:
 
 book:
   cover-image: cover.png
-  site-url: https://drfurtado.github.io/compass-manual/
+  site-url: https://fgcompass.github.io/manual/
   repo-url: https://fgcompass.github.io/site/
   sidebar:
     title: "FG-COMPASS Manual"
@@ -13,7 +13,7 @@ book:
     background: light
     right: 
       - icon: person
-        href: https://drfurtado.github.io/compass-manual/
+        href: https://fgcompass.github.io/manual/
 
   author: 
     - name: Furtado, Ovande Jr
