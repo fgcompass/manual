@@ -58,12 +58,12 @@ April 2025
   author = {Furtado, Ovande Jr and Gallagher, Jere},
   title = {FG-COMPASS Manual},
   date = {2025-04-01},
-  url = {https://drfurtado.github.io/compass-manual/},
+  url = {https://fgcompass.github.io/manual/},
   langid = {en}
 }
 ```
 
 ### For attribution, please cite this work as:
 
-Furtado, O. Jr., & Gallagher, J. (2025, April 1). *FG-COMPASS Manual*. https://drfurtado.github.io/compass-manual/
+Furtado, O. Jr., & Gallagher, J. (2025, April 1). *FG-COMPASS Manual*. https://fgcompass.github.io/manual/
 :::

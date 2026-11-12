@@ -1,1 +1,1 @@
-Sitemap: https://drfurtado.github.io/compass-manual/sitemap.xml
+Sitemap: https://fgcompass.github.io/manual/sitemap.xml
